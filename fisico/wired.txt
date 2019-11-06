@@ -6,4 +6,18 @@ Il bandwith dipende dunque dalla categoria di UTP, andando da 16 MHz e 100 MHz p
 - CAVO COASSIALE:
 Ha una schermatura migliore degli UTP, potendo quindi attraversare maggiori distanze con una maggiore velocità. Generalmente utilizzato per la TV via cavo e più in generale per le reti MAN,
 raggiungendo una bandwith di 1 GHz.
--FIBRA OTTICA:
+- FIBRA OTTICA:
+Microtubo in vetro in cui vengono fatti passare dei fasci di luce, con eventuali rimbalzi al suo interno. Generalmente, un impulso di luce indica 1, mentre l'assenza di luce indica 0.
+La trasmissione è ricevuta da un dispositivo che genera impulsi elettrici in base alla luce ricevuta, cercando cosi una trasmissione unidirezionale tra trasmittente e ricevitore.
+Possono essere presenti microtubi di fibra ottica singoli, oppure un cavo che ne contiene diversi.
+Tipi di connessioni tra fibre:
+1) connettori (come cavi in rame): si perde circa un 10-20% di luce;
+2) allineatori meccanici di precisione: si perde un 10% di luce;
+3) fusione dei due microtubi: impossibile modificare l'infrastruttura, perdita dell'1% di luce.
+L'importanza della trasmissione attraverso le fibre ottiche risiede però anche nel tipo di luce utilizzata per trasmettere il segnale: un segnale laser rispetto al led permette di trasferire dati con una
+frequenza maggiore e per una distanza più lunga, mentre un segnale led rispetto ad uno laser risulta più economico e meno soggetto agli sbalzi di temperatura.
+La fibra ottica presenta alcuni SVANTAGGI rispetto alle connessioni in rame, tra quali: il maggiore costo, la minore flessibilità del vetro, maggiori difficoltà di connessione tra fibre ottiche,
+ed una tendenza della luce ad affievolirsi nel tempo necessitando quindi di una componente elettrica che la ravvivi; in compenso, però, la fibra ottica possiede alcuni VANTAGGI rispetto al rame,
+in particolare: la fibra ottica permette maggiore bandwidth, maggiore sicurezza (dato che la trasmissione è unidirezionale tra trasmittente e ricevitore, e non è pratico tagliare dei microtubi in vetro
+per poi intercettare il segnale), è invece semplice sdoppiare o unire il segnale utilizzando prismi di vetro, dispositivo non elettrico che non richiede manutenzione o particolari specializzazioni
+per l'utilizzo.
