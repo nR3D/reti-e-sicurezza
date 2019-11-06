@@ -10,6 +10,14 @@ Prima di pushare i cambiamenti spostate le righe su cui avete lavorato alla fase
     <li>fisico/satelliti</li>
     <li>fisico/moblie</li>
     <li>fisico/multiplexing</li>
+    <li>fisico/satellitivsfibra</li>
+    <li>fisico/capacitatrasmissione</li>
+    <li>fisico/trasformatafourier</li>
+    <li>fisico/attenuazione</li>
+    <li>fisico/dataratemassimo</li>
+    <li>fisico/dispersione</li>
+    <li>fisico/retetelegrafica</li>
+    <li>fisico/retetelefonicaemodem</li>
 </ol>
 
 ### Trascrizione
