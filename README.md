@@ -3,33 +3,33 @@ Appunti del corso di Reti e Sicurezza del corso di Laurea in Informatica dell'UN
 
 ## Stato degli appunti:
 ### Da Trascrivere
-<ul>
+<ol>
     <li>fisico/satelliti</li>
-    <li>fisico/moblie<li>
+    <li>fisico/moblie</li>
     <li>fisico/multiplexing</li>
-</ul>
+</ol>
 ### In Trascrizione
-<ul>
+<ol>
     <li>fisico/wired</li>
-</ul>
+</ol>
 ### Da integrare con il libro
-<ul>
+<ol>
     <li>fisico/intro</li>
     <li>fisico/wireless</li>
     <li>intro</li>
-</ul>
+</ol>
 
 ### Da semplificare e correggere l'italiano
-<ul>
+<ol>
     <li></li>
-</ul>
+</ol>
 
 ### Da trasformare in latex
-<ul>
+<ol>
     <li></li>
-</ul>
+</ol>
 
 ### Completati
-<ul>
+<ol>
     <li></li>
-</ul>
+</ol>
