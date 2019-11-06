@@ -7,8 +7,7 @@ Prima di pushare i cambiamenti spostate le righe su cui avete lavorato alla fase
 ## Pipeline appunti:
 ### Da Fare 
 <ol>
-    <li>fisico/satelliti</li>
-    <li>fisico/moblie</li>
+    <li>fisico/mobile</li>
     <li>fisico/multiplexing</li>
     <li>fisico/satellitivsfibra</li>
     <li>fisico/capacitatrasmissione</li>
@@ -22,6 +21,7 @@ Prima di pushare i cambiamenti spostate le righe su cui avete lavorato alla fase
 
 ### Trascrizione
 <ol>
+    <li>fisico/satelliti: Leonardo</li>
 </ol>
 
 ### Integrazione con il libro
