@@ -1,0 +1,9 @@
+-UTP (Unshielded Twisted Pair):
+Consiste in cavi annodati in una forma elicoidale, tale forma è necessaria poiché un singolo cavo attraversato da corrente elettrica avrebbe una modifica di potenziale del campo magnetico circostante,
+interferendo cosi con i cavi ed attrezzature adiacenti. La forma elicoidale permette ai due cavi di annullare il campo magnetico, soprattutto nel punto di contatto tra i due cavi,
+ma risulta non totale nei rimanenti punti. Per questo motivo esistono diverse categorie di UTP, come UTP3 e UTP5, con un maggior numero di punti di contatto proporzionalmente al numero della categoria.
+Il bandwith dipende dunque dalla categoria di UTP, andando da 16 MHz e 100 MHz per UTP3 e 5 fino a 250 MHz e 600 MHz per le cat. 6 e 7.
+- CAVO COASSIALE:
+Ha una schermatura migliore degli UTP, potendo quindi attraversare maggiori distanze con una maggiore velocità. Generalmente utilizzato per la TV via cavo e più in generale per le reti MAN,
+raggiungendo una bandwith di 1 GHz.
+-FIBRA OTTICA:
