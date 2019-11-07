@@ -22,8 +22,6 @@ Prima pushare i cambiamenti spostate le righe su cui avete lavorato alla fase su
     <li>fisico/mobile4g5g: Leonardo</li>
     <li>fisico/retetelefonicaemodem: Andrea</li>
     <li>fisico/retetelegrafica: Samuele</li>
-    <li>datalink/intro: Michele</li>
-    <li>datalink/framing: Michele</li>
 </ol>
 
 ### Da convertire in MarkDown
@@ -50,10 +48,12 @@ Prima pushare i cambiamenti spostate le righe su cui avete lavorato alla fase su
 
 ### Integrazione con il libro
 <ol>
+    <li>datalink/framing</li>
 </ol>
 
 ### Da semplificare e correggere l'italiano
 <ol>
+    <li>datalink/intro</li>
 </ol>
 
 ### In correzione dell'italiano
