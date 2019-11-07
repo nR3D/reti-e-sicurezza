@@ -12,12 +12,12 @@ Prima di pushare i cambiamenti spostate le righe su cui avete lavorato alla fase
     <li>fisico/trasformatafourier</li>
     <li>fisico/dataratemassimo</li>
     <li>fisico/retetelegrafica</li>
-    <li>fisico/retetelefonicaemodem</li>
 </ol>
 
 ### Trascrizione
 <ol>
     <li>fisico/satelliti: Leonardo</li>
+    <li>fisico/retetelefonicaemodem: Andrea</li>
 </ol>
 
 ### Integrazione con il libro
