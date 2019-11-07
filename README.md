@@ -13,8 +13,6 @@ Prima pushare i cambiamenti spostate le righe su cui avete lavorato alla fase su
 <ol>
     <li>fisico/multiplexing</li>
     <li>fisico/trasformatafourier</li>
-    <li>datalink/intro</li>
-    <li>datalink/framing</li>
 </ol>
 
 ### Trascrizione
@@ -24,6 +22,8 @@ Prima pushare i cambiamenti spostate le righe su cui avete lavorato alla fase su
     <li>fisico/mobile2g: Leonardo</li>
     <li>fisico/retetelefonicaemodem: Andrea</li>
     <li>fisico/retetelegrafica: Samuele</li>
+    <li>datalink/intro: Michele</li>
+    <li>datalink/framing: Michele</li>
 </ol>
 
 ### Da convertire in MarkDown
