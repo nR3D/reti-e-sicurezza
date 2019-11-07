@@ -43,7 +43,6 @@ Prima pushare i cambiamenti spostate le righe su cui avete lavorato alla fase su
 <ol>
     <li>fisico/wired</li>
     <li>fisico/wireless</li>
-    <li>fisico/mobile2g</li>
 </ol>
 
 ### Integrazione con il libro
