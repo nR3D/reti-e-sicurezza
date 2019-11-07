@@ -37,10 +37,6 @@ Prima pushare i cambiamenti spostate le righe su cui avete lavorato alla fase su
 
 ### In conversione in MarkDown
 <ol>
-    <li>intro</li>
-    <li>fisico/intro</li>
-    <li>fisico/wired</li>
-    <li>fisico/wireless</li>
     <li>fisico/satellitivsfibra</li>
     <li>fisico/capacitatrasmissione</li>
     <li>fisico/attenuazione</li>
@@ -50,6 +46,10 @@ Prima pushare i cambiamenti spostate le righe su cui avete lavorato alla fase su
 
 ### Integrazione con il libro
 <ol>
+    <li>intro: Alberto</li>
+    <li>fisico/intro: Alberto</li>
+    <li>fisico/wired: Alberto</li>
+    <li>fisico/wireless: Alberto</li>
 </ol>
 
 ### Da semplificare e correggere l'italiano
