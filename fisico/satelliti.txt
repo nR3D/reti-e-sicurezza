@@ -1,0 +1,17 @@
+Nelle comunicazionei satellitari un asoetti chiave è l'altezza orbitale del satellite, infatti un'orbita bassa saranno necessare molti satelliti saranno necessari molti sateliti per comprire la superfice terrestre, mentre un satellite più alto avrà un meggior tempo di latenza del segnale. In aggiunta, è presente una proporzionalita quatratica tra potenza necessaria alla trasmissione e l'altitudine del satellite.
+un'altro problema per i satelliti a maggio altitudine è la presenza di due fasce di particelle ioniche intrappolate nel campo magnetico terrestre dette fasce di Van Allen.
+Sono presenti tre fasce satellitari: 
+-GEO
+Satelliti geostazionari posizionati al di sopra delle fasce di Van Allen.
+L'unica orbita geostazionaria che non richiede correzioni artificiali è quella equatoriale, quindi si presenta un problema di sovraffollamento di questa fascia, con conseguenti problemi di interferenza e difficolta di inserire un nuovo satellite senza collidere con quelli già presenti, infatti c'è un limite di 180 satelliti per quest'orbita.
+In orbita GEO ci sono satelliti spia, satilliti metereologiche e satelliti per trasmissioni televisive Direct Signal Broadcast
+.
+-MEO
+Satelliti ad orbita media tra le due fasce di Van Hallen
+tecnologia esemplificativa dei satelliti MEO è il GPS: composto da circa 30 satelliti della difesa statunitense, tecnologia rea pubblica nel 1983 a seguito di un incidente di un aereo in territorio Russo. Prima fu resa pubblica con una precisione di 100 metri, ma per l'uso che ne viene fatto al di fuori dell'aviazione nel due mila viene ridotto a 20m. il GPS ha un tempo fisso di "fix" in cui il chip identifica i satelliti più vicini che permettono di triangolare il segnale; esiste l' Assisted-GPS che utilizza le celle telefoniche(fisse sul territorio) per velocizzare il processo di identificazione dei satelliti vicini, oppure tramite l'uso di un barometro per capire la propria altitudine. Alternatica russa che usa 28 satelliti è il GLONASS può essere utile per un controllo incrociato con il GPS. Per la localizzaione prima si utlilizzava il progetto TRANSIT che consiste in piccoli satelliti con radio trasmettitori che emettono brevi segnali radio, transitando veloci sopra la superficie terrestred è possibile approssimare la propria posizione usando l'effetto Doppler.
+-LEO
+Satelliti ad orbita bassa posizionati al di sotto delle due fasce di Van Hallen
+Basso tempo di latenza, ottimo per telecomunicazioni satellitari, anche se data la bassa altitudine orbitale saranno necessari più satelliti per una copertura ottimale della superfiie terrestre. Un esempio è iridium che con 77 satelliti (poi diminuiti a 66) era il prima sistema di telecomunicazione globale in grado di coprire anche luoghi non precedentemente raggiungibili, ogni satellite iridium ha 48 celle telefoniche, il segnale una volta raggiunto al satellite viene inviato attraverso la rete di satelliti (senza le interferenze presenti nell'atmosfera terrestre) 
+
+
+
