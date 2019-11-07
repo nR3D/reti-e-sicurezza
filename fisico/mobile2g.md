@@ -1,0 +1,24 @@
+## Mobile 2g
+Risulta essere la prima generazione digitale. Anche in questo caso non si è riusciti ad averre uno unico standard globale, ma sono presenti 4 standard in competizione tra loro (anche se 2 di questi sono molto simili quindi basta un'aggiornamento software per renderli compatibili):
+
+### D-AMPS
+È uno standard statunitense (il pdc è il corrispondente nipponico che risulta molto simile), risulta super compatibile con AMPS(1G) dal quale eredita le frequenze fino a 850Mhz che vengono ampliate 1850-1990Mhz. un questa banda le onde sono corte (16 cm) e dunques sono sufficenti antenne più piccole per ricevere il segnale. D-AMPS rispetto all'amps utilizza una tecnica di compressione del flusso voce Delta Modulation, grazie all'utilizzo della trasmissione in digitale. Con questa compressionei si riescono ad abbassare i 56 Kbps utilizzati a 8kbps (a volte anche 4K    bps), riuscendo così a trasmettere un astessalinea 6 volte gli utenti trasmessi dall'amps. Un esemoui du compressione, che è veloce e poco laborioasa, è la delta modulation, in cui si trasmette la variazione dell'onda rispetto al momento precedente (questo è un algoritmo che posta a possibili perdite di dati, che però in una trasmissione audio non risulta troppo significativa) il segnale po viene digitalizzato con un uno per le variazioni positive e uno zero per le variazioni negative. Questa comperessione peggiora la qualita delle chiamate che risulterà degradata rispetto a quella dell`1G, conl'aumento dei dispositivi, L'handoff risulta essere un dovere troppogrande per la cella e dunque, a partire dal 2g l'handoff è a carico del cellulare, questo monitora continuamente il segnale ricevuto dalla cella e nel caso di segnale troppo basso può decidere di disconnettersi e a una nuova cella più vicina. Questa tecnica si chiama MAHO (Mobile Assisted HandOff). Nella comunicazione telefonica viene utilzzato il multiplexing temporale (TDM).
+### GSM
+Standard Diffusissiomo in europa comenel D-AMPS viene usato un FDM con divisione  TDM dentro ogni canale del FDM. Una differenza con l'AMPS(è che sono presenti canali più ampi (200Khz contro i 30Khz dell'AMPS) e quindi un datarate più alto,a discapito di un numero di canali che risulta inferiore all'AMPS: 124 canali, ognuno con 8 slot temporali, circa 33kbps disponibili a ogni utente  (contro gli 8 a 12kbps dell'AMPS) tolti i bit di overhead si ottengono circa a 24.7 Kbps, e con l'utilizzo dell'error correction si arriva a 13 Kbps, contro gli 8 o 4 kbps del D-AMPS quindi in conclusione il GSM ha una qualita` migliore.<br>
+Il GSM è strutturato in celle variabili: <br>
+- Macro: le più estese con raggio massimo di 35km <br> 
+- Micro: da piazzare sopra gli edifici urbani<br>
+- Pico: utilizzavile in luoghi molto affollati, anche indoor <br>
+- Umbrella: usate per coprire picchili buchi o quasti di rete<br>
+Con il gsm viene introdotta per la prima volta la SIM (Simbolic Identity Module), con con taglie variabili tra 4Kb e 512Kb, ma il suo scopo principale non è quello di memorizzare ma l'importante è che contenga 2 codici identificativi:
+IMSI (International Mobile Subscriber Identity che identifica univocamente la sim nel mondo)
+Ki, la chiave di autenticazione per evitare il clonaggio dato che l'IMSI viene inviata in chiaro.
+L'operatore invia un numero call'utente che viene firmato con la Ki e poi rispedito assieme all'IMSI.
+### 2.5G
+Chiamato GPRS(General Packet Radio Service) che è un overlay del 2G (GSM e D-AMPS) che permette di trasmettere anche dati internet. il problema risulta essere che il 2g è pensato per trasmissioni voce e dunque la connessione dati web tende ad occupare un intero canale voce anche quando il traffico è ridotto. Il GPRS è il primo standard ad introdurre il passaggio da message switching a packet switching, e dunque le tariffe non vengono più calcolate in base al tempo di connessione ma in base al numero di pacchetti invitati. Nel GPRS vengono allocati dinamicamente i canali internet e voce in base alla richiesta dando generalmente priorta` ai canali voce) 
+Esistono differenti classi di GPRS:<br>
+- Classe C: richiede un settaggio manuale del canale da utilizzare, se GSM o GPRS<br>
+- Classe B: La connessione al canale richiesto avviene Automaticamente<br>
+- Classe Pseudo A: le due di tipologie di connessioni sono aperte contemporaneamente in un singolo canale.<br>
+- Classe A: C le due tipologie di connessioni sono entrambe aperte su canali distinti<br>
+Edge: è un evolucione del GPRS che migliora la trasmissione dati. Anche questo Caso esistono diverse versioni che variano da 64Kbps a 236Kbps teorici in download.

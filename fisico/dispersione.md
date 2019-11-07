@@ -1,0 +1,3 @@
+## Dispersione
+La dispersione risulta essere un problema più grave dell'attenuazione, poiché in questo caso l'onda viene distorta in base alla sua frequenza, risulta dunque più difficile ricostruire un'onda distorta.
+Una possibile soluzione potrebbe essere quella di utilizzare un gran numero di ripetitori per ritrasmettere e correggere il segnale quando la dispersione è ancora minima. Tale soluzione non risulta però conveniente nel mondo reale. Una soluzione migliore sono le onde solitoniche: i solitoni sono onde che hanno una dispersione quasi nulla. Inoltre in caso di incontro di due solitoni sullo stesso canale in direzioni opposte non provoca problemi, dunque un canale half-duplex diventa automaticamente full-duplex.
