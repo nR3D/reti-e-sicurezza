@@ -8,15 +8,15 @@ Prima di pushare i cambiamenti spostate le righe su cui avete lavorato alla fase
 ### Da Fare
 <ol>
     <li>fisico/mobile1g</li>
-    <li>fisico/mobile2g</li>
     <li>fisico/mobile3g</li>
-    <li>fisico/mobile4g5g</li>
     <li>fisico/multiplexing</li>
     <li>fisico/trasformatafourier</li>
 </ol>
 
 ### Trascrizione
 <ol>
+    <li>fisico/mobile4g5g: Leonardo</li>
+    <li>fisico/mobile2g: Leonardo</li>
     <li>fisico/retetelefonicaemodem: Andrea</li>
     <li>fisico/dataratemassimo: Michele</li>
     <li>fisico/retetelegrafica: Samuele</li>
