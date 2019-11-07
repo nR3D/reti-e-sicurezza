@@ -26,14 +26,15 @@ Prima di pushare i cambiamenti spostate le righe su cui avete lavorato alla fase
 
 ### Integrazione con il libro
 <ol>
-    <li>fisico/wired</li>
-    <li>fisico/wireless</li> 
+    
 </ol>
 
 ### Da semplificare e correggere l'italiano
 <ol>
 	<li>intro</li>
 	<li>fisico/intro</li>
+	<li>fisico/wired</li>
+    <li>fisico/wireless</li> 
 </ol>
 
 ### Da trasformare in latex
