@@ -1,0 +1,13 @@
+TEORMEMA DI NYQUIST
+Il data-rate massimo (bit al secondo) è: 2*B*log(2) L
+dove B e la banda massima, L sono i livelli del segnale che vengono usati.
+Nel caso del telegrafo L=2 (0, 1) -> data-rate massimo è 2B.
+Nella pratica non vale perché ci sono interferenze: il teorema vale solo in condizioni ideali.
+Bisogna considerare la potenza del rumore R.
+
+TEOREMA DI SHANNON
+Generalizzazione del teorema di Nyquist considerando il rumore R.
+max_data_rate = B*log(2) (1+S/N)
+dove S/N è il rapporto tra la potenza del segnale S e la potenza del rumore del canale R, che dipende dalla qualità del mezzo.
+Si indica in decibel -> 10*log(10) S/N = SNR.
+Nel caso ottimo, con alto S/N, il massimo data rate è (B/3)*SNR.

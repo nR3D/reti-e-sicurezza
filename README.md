@@ -18,8 +18,6 @@ Prima di pushare i cambiamenti spostate le righe su cui avete lavorato alla fase
 ### Trascrizione
 <ol>
     <li>fisico/satelliti: Leonardo</li>
-    <li>fisico/attenuazione: Michele</li>
-    <li>fisico/dispersione: Michele</li>
 </ol>
 
 ### Integrazione con il libro
@@ -35,6 +33,9 @@ Prima di pushare i cambiamenti spostate le righe su cui avete lavorato alla fase
     <li>fisico/wireless</li>
     <li>fisico/satellitivsfibra</li>
     <li>fisico/capacitatrasmissione</li>
+    <li>fisico/attenuazione</li>
+    <li>fisico/dispersione</li>
+    <li>fisico/nyquist-shannon</li>
 </ol>
 
 ### Da trasformare in latex
