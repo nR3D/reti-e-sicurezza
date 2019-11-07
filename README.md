@@ -11,7 +11,6 @@ Prima pushare i cambiamenti spostate le righe su cui avete lavorato alla fase su
 ## Pipeline appunti:
 ### Da trascrivere
 <ol>
-    <li>fisico/xDSL</li>
     <li>fisico/multiplexing</li>
     <li>fisico/trasformatafourier</li>
     <li>fisico/mobile0g</li>
@@ -21,11 +20,12 @@ Prima pushare i cambiamenti spostate le righe su cui avete lavorato alla fase su
 <ol>
     <li>fisico/mobile1g: Stefano</l1>
     <li>fisico/retetelefonicaemodem: Andrea</li>
-    <li>fisico/retetelegrafica: Samuele</li>
+    <li>fisico/xDSL: Samuele</li>
 </ol>
 
 ### Da convertire in MarkDown
 <ol>
+    <li>fisico/retetelegrafica</li>
     <li>fisico/mobile4g5g</li>
     <li>fisico/wired</li>
     <li>fisico/wireless</li>
