@@ -41,8 +41,7 @@ Prima pushare i cambiamenti spostate le righe su cui avete lavorato alla fase su
 
 ### In conversione in MarkDown
 <ol>
-    <li>fisico/wired</li>
-    <li>fisico/wireless</li>
+    
 </ol>
 
 ### Integrazione con il libro
@@ -54,6 +53,8 @@ Prima pushare i cambiamenti spostate le righe su cui avete lavorato alla fase su
 <ol>
     <li>intro</li>
     <li>fisico/intro</li>
+    <li>fisico/wired</li>
+    <li>fisico/wireless</li>
     <li>datalink/intro</li>
 </ol>
 
