@@ -7,7 +7,6 @@ Prima di pushare i cambiamenti spostate le righe su cui avete lavorato alla fase
 ## Pipeline appunti:
 ### Da Fare
 <ol>
-    <li>fisico/mobile3g</li>
     <li>fisico/multiplexing</li>
     <li>fisico/trasformatafourier</li>
 </ol>
@@ -19,6 +18,7 @@ Prima di pushare i cambiamenti spostate le righe su cui avete lavorato alla fase
     <li>fisico/mobile2g: Leonardo</li>
     <li>fisico/retetelefonicaemodem: Andrea</li>
     <li>fisico/retetelegrafica: Samuele</li>
+    <li>fisico/mobile3g: Michele</li>
 </ol>
 
 ### Integrazione con il libro
