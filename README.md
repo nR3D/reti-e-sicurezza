@@ -20,11 +20,11 @@ Prima pushare i cambiamenti spostate le righe su cui avete lavorato alla fase su
 <ol>
     <li>fisico/mobile1g: Stefano</l1>
     <li>fisico/retetelefonicaemodem: Andrea</li>
-    <li>fisico/xDSL: Samuele</li>
 </ol>
 
 ### Da convertire in MarkDown
 <ol>
+    <li>fisico/xDSL</li>
     <li>fisico/retetelegrafica</li>
     <li>fisico/mobile4g5g</li>
     <li>fisico/wired</li>
