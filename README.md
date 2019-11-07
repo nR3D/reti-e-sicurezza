@@ -20,7 +20,6 @@ Prima pushare i cambiamenti spostate le righe su cui avete lavorato alla fase su
 <ol>
     <li>fisico/mobile1g: Stefano</l1>
     <li>fisico/mobile4g5g: Leonardo</li>
-    <li>fisico/mobile2g: Leonardo</li>
     <li>fisico/retetelefonicaemodem: Andrea</li>
     <li>fisico/retetelegrafica: Samuele</li>
     <li>datalink/intro: Michele</li>
@@ -29,6 +28,7 @@ Prima pushare i cambiamenti spostate le righe su cui avete lavorato alla fase su
 
 ### Da convertire in MarkDown
 <ol>
+    <li>fisico/mobile2g</li>
     <li>fisico/satellitivsfibra</li>
     <li>fisico/capacitatrasmissione</li>
     <li>fisico/attenuazione</li>
