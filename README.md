@@ -18,12 +18,13 @@ Prima di pushare i cambiamenti spostate le righe su cui avete lavorato alla fase
     <li>fisico/mobile2g: Leonardo</li>
     <li>fisico/retetelefonicaemodem: Andrea</li>
     <li>fisico/retetelegrafica: Samuele</li>
-    <li>fisico/mobile3g: Michele</li>
+    
 </ol>
 
 ### Integrazione con il libro
 <ol>
-    <li>fisico/satelliti</li>
+	<li>fisico/satelliti</li>
+	<li>fisico/mobile3g</li>
 </ol>
 
 ### Da semplificare e correggere l'italiano
