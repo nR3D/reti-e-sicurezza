@@ -9,8 +9,6 @@ Prima di pushare i cambiamenti spostate le righe su cui avete lavorato alla fase
 <ol>
     <li>fisico/mobile</li>
     <li>fisico/multiplexing</li>
-    <li>fisico/satellitivsfibra</li>
-    <li>fisico/capacitatrasmissione</li>
     <li>fisico/trasformatafourier</li>
     <li>fisico/attenuazione</li>
     <li>fisico/dataratemassimo</li>
@@ -22,6 +20,8 @@ Prima di pushare i cambiamenti spostate le righe su cui avete lavorato alla fase
 ### Trascrizione
 <ol>
     <li>fisico/satelliti: Leonardo</li>
+    <li>fisico/satellitivsfibra: Michele</li>
+    <li>fisico/capacitatrasmissione: Michele</li>
 </ol>
 
 ### Integrazione con il libro
