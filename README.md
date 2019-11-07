@@ -26,6 +26,8 @@ Prima pushare i cambiamenti spostate le righe su cui avete lavorato alla fase su
 
 ### Da convertire in MarkDown
 <ol>
+    <li>fisico/wired</li>
+    <li>fisico/wireless</li>
     <li>fisico/mobile2g</li>
     <li>fisico/satellitivsfibra</li>
     <li>fisico/capacitatrasmissione</li>
@@ -40,14 +42,12 @@ Prima pushare i cambiamenti spostate le righe su cui avete lavorato alla fase su
 
 ### In conversione in MarkDown
 <ol>
-    <li>intro: Alberto</li>
-    <li>fisico/intro: Alberto</li>
-    <li>fisico/wired: Alberto</li>
-    <li>fisico/wireless: Alberto</li>
 </ol>
 
 ### Integrazione con il libro
 <ol>
+    <li>intro</li>
+    <li>fisico/intro</li>
     <li>datalink/framing</li>
 </ol>
 
