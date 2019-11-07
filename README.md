@@ -7,14 +7,16 @@ Prima di pushare i cambiamenti spostate le righe su cui avete lavorato alla fase
 ## Pipeline appunti:
 ### Da Fare
 <ol>
-    <li>fisico/mobile</li>
+    <li>fisico/mobile1g</li>
+    <li>fisico/mobile2g</li>
+    <li>fisico/mobile3g</li>
+    <li>fisico/mobile4g5g</li>
     <li>fisico/multiplexing</li>
     <li>fisico/trasformatafourier</li>
 </ol>
 
 ### Trascrizione
 <ol>
-    <li>fisico/satelliti: Leonardo</li>
     <li>fisico/retetelefonicaemodem: Andrea</li>
     <li>fisico/dataratemassimo: Michele</li>
     <li>fisico/retetelegrafica: Samuele</li>
@@ -22,7 +24,7 @@ Prima di pushare i cambiamenti spostate le righe su cui avete lavorato alla fase
 
 ### Integrazione con il libro
 <ol>
-
+    <li>fisico/satelliti</li>
 </ol>
 
 ### Da semplificare e correggere l'italiano
@@ -34,8 +36,8 @@ Prima di pushare i cambiamenti spostate le righe su cui avete lavorato alla fase
 	<li>fisico/satellitivsfibra</li>
    	<li>fisico/capacitatrasmissione</li>
    	<li>fisico/attenuazione</li>
-    	<li>fisico/dispersione</li>
-    	<li>fisico/nyquist-shannon</li>
+    <li>fisico/dispersione</li>
+    <li>fisico/nyquist-shannon</li>
 </ol>
 
 ### Da trasformare in latex
