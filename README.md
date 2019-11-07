@@ -46,13 +46,13 @@ Prima pushare i cambiamenti spostate le righe su cui avete lavorato alla fase su
 
 ### Integrazione con il libro
 <ol>
-    <li>intro</li>
-    <li>fisico/intro</li>
     <li>datalink/framing</li>
 </ol>
 
 ### Da semplificare e correggere l'italiano
 <ol>
+    <li>intro</li>
+    <li>fisico/intro</li>
     <li>datalink/intro</li>
 </ol>
 
