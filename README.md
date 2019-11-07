@@ -18,7 +18,6 @@ Prima di pushare i cambiamenti spostate le righe su cui avete lavorato alla fase
     <li>fisico/mobile4g5g: Leonardo</li>
     <li>fisico/mobile2g: Leonardo</li>
     <li>fisico/retetelefonicaemodem: Andrea</li>
-    <li>fisico/dataratemassimo: Michele</li>
     <li>fisico/retetelegrafica: Samuele</li>
 </ol>
 
@@ -36,8 +35,8 @@ Prima di pushare i cambiamenti spostate le righe su cui avete lavorato alla fase
 	<li>fisico/satellitivsfibra</li>
    	<li>fisico/capacitatrasmissione</li>
    	<li>fisico/attenuazione</li>
-    <li>fisico/dispersione</li>
-    <li>fisico/nyquist-shannon</li>
+   	<li>fisico/dispersione</li>
+	<li>fisico/datarate</li>
 </ol>
 
 ### Da trasformare in latex
