@@ -29,6 +29,11 @@ Prima pushare i cambiamenti spostate le righe su cui avete lavorato alla fase su
 
 ### Da convertire in MarkDown
 <ol>
+    <li>fisico/satellitivsfibra</li>
+    <li>fisico/capacitatrasmissione</li>
+    <li>fisico/attenuazione</li>
+    <li>fisico/dispersione</li>
+    <li>fisico/datarate</li>
     <li>fisico/satelliti</li>
     <li>fisico/mobile3g</li>
     <li>fisico/satelliti</li>
@@ -37,19 +42,14 @@ Prima pushare i cambiamenti spostate le righe su cui avete lavorato alla fase su
 
 ### In conversione in MarkDown
 <ol>
-    <li>fisico/satellitivsfibra</li>
-    <li>fisico/capacitatrasmissione</li>
-    <li>fisico/attenuazione</li>
-    <li>fisico/dispersione</li>
-    <li>fisico/datarate</li>
-</ol>
-
-### Integrazione con il libro
-<ol>
     <li>intro: Alberto</li>
     <li>fisico/intro: Alberto</li>
     <li>fisico/wired: Alberto</li>
     <li>fisico/wireless: Alberto</li>
+</ol>
+
+### Integrazione con il libro
+<ol>
 </ol>
 
 ### Da semplificare e correggere l'italiano
