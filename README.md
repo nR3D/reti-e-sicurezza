@@ -19,13 +19,13 @@ Prima pushare i cambiamenti spostate le righe su cui avete lavorato alla fase su
 ### Trascrizione
 <ol>
     <li>fisico/mobile1g: Stefano</l1>
-    <li>fisico/mobile4g5g: Leonardo</li>
     <li>fisico/retetelefonicaemodem: Andrea</li>
     <li>fisico/retetelegrafica: Samuele</li>
 </ol>
 
 ### Da convertire in MarkDown
 <ol>
+    <li>fisico/mobile4g5g</li>
     <li>fisico/wired</li>
     <li>fisico/wireless</li>
     <li>fisico/mobile2g</li>
