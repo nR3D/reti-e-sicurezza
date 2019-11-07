@@ -32,7 +32,7 @@ Prima di pushare i cambiamenti spostate le righe su cui avete lavorato alla fase
 
 ### Da semplificare e correggere l'italiano
 <ol>
-	<li>intro<li>
+	<li>intro</li>
 	<li>fisico/intro</li>
 </ol>
 
