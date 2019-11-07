@@ -1,0 +1,18 @@
+2G
+risulta essere la prima generazione digitale. Anche in questo caso non si e` riusciti ad averre uno unico standard globale, ma sono presenti 4 standard in competizione tra loro (anche se 2 di questi sono molto simili quindi basta un'aggiornamento software per renderli compatibili):
+
+D-AMPS
+e` uno standard statunitense (il pdc e` il corrispondente nipponico che risulta molto simile), risulta super compatibile con AMPS(1G) dal quale eredita le frequenze fino a 850Mhz che vengono ampliate 1850-1990Mhz. un questa banda le onde sono corte (16 cm) e dunques sono sufficenti antenne piu` piccole per ricevere il segnale. D-AMPS rispetto all'amps utilizza una tecnica di compressione del flusso voce, grazie all'utilizzo della trasmissione in digitale. Con questa compressionei si riescono ad abbassare i 56 Kbps utilizzati a 8kbps (a volte anche 4K    bps), riuscendo cosi` a trasmettere un astessalinea 6 volte gli utenti trasmessi dall'amps. Un esemoui du compressione, che e` veloce e poco laborioasa, e` la delta modulation, in cui si trasmette la variazione dell'onda rispetto al momento precedente (questo e` un algoritmo che posta a possibili perdite di dati, che pero` in una trasmissione audio non risulta troppo significativa) il segnale po viene digitalizzato con un uno per le variazioni positive e uno zero per le variazioni negative. Questa comperessione peggiora la qualita delle chiamate che risultera` degradata rispetto a quella dell`1G, conl'aumento dei dispositivi, L'handoff risulta essere un dovere troppogrande per la cella e dunque, a partire dal 2g l'handoff e` a carico del cellulare, questo monitora continuamente il segnale ricevuto dalla cella e nel caso di segnale troppo basso puo` decidere di disconnettersi e a una nuova cella piu` vicina. Questa tecnica si chiama MAHO (Mobile Assisted HandOff). Nella comunicazione telefonica viene utilzzato il multiplexing temporale (TDM).
+GSM:
+Standard Diffusissiomo in europa comenel D-AMPS viene usato un FDM con divisione  TDM dentro ogni canale del FDM. Una differenza con l'AMPS(e` che sono presenti canali piu` ampi (200Khz contro i 30Khz dell'AMPS) e quindi un datarate piu` alto,a discapito di un numero di canali che risulta inferiore all'AMPS: 124 canali, ognuno con 8 slot temporali, circa 33kbps disponibili a ogni utente  (contro gli 8 a 12kbps dell'AMPS) tolti i bit di overhead si ottengono circa a 24.7 Kbps, e con l'utilizzo dell'error correction si arriva a 13 Kbps, contro gli 8 o 4 kbps del D-AMPS quindi in conclusione il GSM ha una qualita` migliore.
+Il GSM e` strutturato in celle variabili: 
+-Macro: le piu` estese con raggio massimo di 35km  
+-Micro: da piazzare sopra gli edifici urbani
+-Pico: utilizzavile in luoghi molto affollati, anche indoor 
+-Umbrella: usate per coprire picchili buchi o quasti di rete
+Con il gsm viene introdotta per la prima volta la SIM (Simbolic Identity Module), con con taglie variabili tra 4Kb e 512Kb, ma il suo scopo principale non e` quello di memorizzare ma l'importante e` che contenga 2 codici identificativi:
+IMSI (International Mobile Subscriber Identity che identifica univocamente la sim nel mondo)
+Ki, la chiave di autenticazione per evitare il clonaggio dato che l'IMSI viene inviata in chiaro.
+L'operatore invia un numero call'utente che viene firmato con la Ki e poi rispedito assieme all'IMSI.
+2.5g:
+chiamato GPRS(General Packet Radio Service) che e` un overlay del 2G 
