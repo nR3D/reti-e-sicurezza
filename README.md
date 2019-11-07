@@ -3,14 +3,13 @@ Appunti del corso di Reti e Sicurezza del corso di Laurea in Informatica dell'UN
 
 ## Regole:
 Prima di lavorare su gli appunti in una fase, fate un push del README scrivendo nella linea rispettiva delle cose su cui lavorerete il vostro nome per evitare lavoro inutile ad altri.<br>
-Prima di pushare i cambiamenti spostate le righe su cui avete lavorato alla fase successiva togliendo il nome. Buon lavoro :) 
+Prima di pushare i cambiamenti spostate le righe su cui avete lavorato alla fase successiva togliendo il nome. Buon lavoro :)
 ## Pipeline appunti:
-### Da Fare 
+### Da Fare
 <ol>
     <li>fisico/mobile</li>
     <li>fisico/multiplexing</li>
     <li>fisico/trasformatafourier</li>
-    <li>fisico/dataratemassimo</li>
     <li>fisico/retetelegrafica</li>
 </ol>
 
@@ -18,11 +17,12 @@ Prima di pushare i cambiamenti spostate le righe su cui avete lavorato alla fase
 <ol>
     <li>fisico/satelliti: Leonardo</li>
     <li>fisico/retetelefonicaemodem: Andrea</li>
+    <li>fisico/dataratemassimo: Michele</li>
 </ol>
 
 ### Integrazione con il libro
 <ol>
-    
+
 </ol>
 
 ### Da semplificare e correggere l'italiano
@@ -30,12 +30,12 @@ Prima di pushare i cambiamenti spostate le righe su cui avete lavorato alla fase
 	<li>intro</li>
 	<li>fisico/intro</li>
 	<li>fisico/wired</li>
-    <li>fisico/wireless</li>
-    <li>fisico/satellitivsfibra</li>
-    <li>fisico/capacitatrasmissione</li>
-    <li>fisico/attenuazione</li>
-    <li>fisico/dispersione</li>
-    <li>fisico/nyquist-shannon</li>
+	<li>fisico/wireless</li>
+	<li>fisico/satellitivsfibra</li>
+   	<li>fisico/capacitatrasmissione</li>
+   	<li>fisico/attenuazione</li>
+    	<li>fisico/dispersione</li>
+    	<li>fisico/nyquist-shannon</li>
 </ol>
 
 ### Da trasformare in latex
