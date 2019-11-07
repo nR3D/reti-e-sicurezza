@@ -1,0 +1,10 @@
+CAPACITÀ DI TRASMISSIONE
+La lunghezza di banda (bandwidth) è una misura fisica che indica l'insieme di frequenze trasmissibili su un canale, ed è generalmente misurata in Hz.
+Il data-rate è invece una misura informativa (astratta) che può essere ricondotta a due diverse misure:
+-> bit rate: quanti bit al secondo vengono trasmessi.
+-> baud rate: quanti simboli al secondo vengono trasmessi, utile in caso si stia associando un differente simbolo ad ogni forma d'onda.
+In generale, bitrate=baudrate x log(2)V, dove V è il numero di simboli trasmessi, quindi il bitrate sarà sempre maggiore del baudrate quando si trasmettono più di due simboli.
+Infatti il bitrate sarà sempre maggiore del baudrate quando si trasmettono più di due simboli. Il bitrate non è altro che il baudrate nel caso specifico in cui vengano trasmessi solo due simboli, 1 e 0.
+Naturalmente maggiore è la frequenza di trasmissione e più alto sarà il datarate, però frequenze troppo alte sono generalmente poco applicabili ai canali di comunicazione reali.
+È dunque necessario trovare un buon compromesso tra alte frequenze e capacità di trasmissione, infatti la potenza di trasmissione cresce col quadrato della frequenza trasmessa,
+perciò è presente un limite di banda, cioè un limite di potenza impiegata.
