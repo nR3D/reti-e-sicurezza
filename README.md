@@ -18,7 +18,6 @@ Prima pushare i cambiamenti spostate le righe su cui avete lavorato alla fase su
 
 ### Trascrizione
 <ol>
-    <li>fisico/mobile1g: Stefano</l1>
     <li>fisico/retetelefonicaemodem: Andrea</li>
 </ol>
 
@@ -63,4 +62,5 @@ Prima pushare i cambiamenti spostate le righe su cui avete lavorato alla fase su
 
 ### Completati
 <ol>
+    <li>fisico/mobile1g</l1>
 </ol>
