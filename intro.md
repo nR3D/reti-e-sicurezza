@@ -1,5 +1,5 @@
 # Intro
-Le definizioni di rete sono molteplici, ma una di queste è "Viene chiamata rete tutto ciò al cui interno si può identificare un grafo".
+Le definizioni di rete sono molteplici, ma una di queste è `Viene chiamata rete tutto ciò al cui interno si può identificare un grafo`.
 
 Questa definizione permette in ampia definizione della parola rete, ciò implica che la teoria successivamente studiata potrà essere applicata in un numero indefinito di casi, es. teorie sviluppate per le reti computazionali possono tornare utili anche per le reti stradali e viceversa.
 
@@ -29,7 +29,7 @@ Il modello OSI ha  livelli:
 2. **Data-Link**: Incapsula le unita di uinformazione ricevute/trasmesse ed identifica eventuali errori di trasmissione
 3. **Network**: contolla le operazioni della sottorete, dicendo quali percorsi utilizzare per la trasmissione dei dati (routing), controllando eventuali congestioni
 4. **Trasnport**: fornisce il traferimento dati trai processi, assicurandosi che le comunicazioni tra i layer più alti avvengano correttamente
-5. **Session: fornisce e mantiene le sessioni di comunicazione tra diverse macchine
+5. **Session**: fornisce e mantiene le sessioni di comunicazione tra diverse macchine
 6. **Presentation**: si assicura che i dati siano rappresentati nel formato opportuno
 7. **Application**: contiene una varietà di protocolli generalmente utilizzati dall'utente
 
