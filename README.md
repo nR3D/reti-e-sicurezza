@@ -13,7 +13,7 @@ Prima di pushare i cambiamenti spostate le righe su cui avete lavorato alla fase
 
 ### Trascrizione
 <ol>
-    <li>fisico/mobile1g</l1>
+    <li>fisico/mobile1g: Stefano</l1>
     <li>fisico/mobile4g5g: Leonardo</li>
     <li>fisico/mobile2g: Leonardo</li>
     <li>fisico/retetelefonicaemodem: Andrea</li>
