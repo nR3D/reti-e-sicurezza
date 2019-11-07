@@ -24,11 +24,14 @@ Prima pushare i cambiamenti spostate le righe su cui avete lavorato alla fase su
 
 ### Da convertire in MarkDown
 <ol>
+    
+</ol>
+
+### In conversione in MarkDown
+<ol>
     <li>fisico/xDSL</li>
     <li>fisico/retetelegrafica</li>
     <li>fisico/mobile4g5g</li>
-    <li>fisico/wired</li>
-    <li>fisico/wireless</li>
     <li>fisico/mobile2g</li>
     <li>fisico/satellitivsfibra</li>
     <li>fisico/capacitatrasmissione</li>
@@ -37,11 +40,6 @@ Prima pushare i cambiamenti spostate le righe su cui avete lavorato alla fase su
     <li>fisico/datarate</li>
     <li>fisico/satelliti</li>
     <li>fisico/mobile3g</li>
-</ol>
-
-### In conversione in MarkDown
-<ol>
-    
 </ol>
 
 ### Integrazione con il libro
