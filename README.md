@@ -36,8 +36,6 @@ Prima pushare i cambiamenti spostate le righe su cui avete lavorato alla fase su
     <li>fisico/datarate</li>
     <li>fisico/satelliti</li>
     <li>fisico/mobile3g</li>
-    <li>fisico/satelliti</li>
-    <li>fisico/mobile3g</li>
 </ol>
 
 ### In conversione in MarkDown
