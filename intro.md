@@ -13,10 +13,10 @@ Per ruolo dei componenti:
 
 Oppure in base all’estensione geografica della rete:
 
-- PAN(Personal Area Network) 1m;
-- LAN(Local Area Network) 10m-1km;
-- PAN(Metropolitan Area Network) 10km;
-- WAN(Wide Area Network) 100km-100km;
+- PAN(Personal Area Network) 1m
+- LAN(Local Area Network) 10m-1km
+- PAN(Metropolitan Area Network) 10km
+- WAN(Wide Area Network) 100km-100km
 
 Esistono reti molto più piccole e molto più grandi di quelle citate qui sopra, es. internet che attraversa tutto il pianeta, ma queste categorie rappresentano la maggior parte delle reti esistenti.
 
