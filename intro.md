@@ -9,6 +9,7 @@ Per ruolo dei componenti: 
 - Client-server
 - Peer-to-Peer
 - Server dislocati
+
 Oppure in base all’estensione geografica della rete:
 - PAN(Personal Area Network) 1m;
 - LAN(Local Area Network) 10m-1km;
