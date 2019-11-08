@@ -5,12 +5,14 @@ Ma in questo corso si userà questa :”Si definisce rete tutto ciò che pu�
 Questa definizione permette un’ampia definizione della parola rete, quindi la teoria successivamente studiata potrà essere applicata anche in cose esterne a questo corso, es. le teorie sviluppate per reti computazionali possono tornare utili anche per reti stradali e viceversa.
 
 Le reti di informazioni possono essere categorizzate in più modi
-Per ruolo dei componenti: 
+Per ruolo dei componenti:
+
 - Client-server
 - Peer-to-Peer
 - Server dislocati
 
 Oppure in base all’estensione geografica della rete:
+
 - PAN(Personal Area Network) 1m;
 - LAN(Local Area Network) 10m-1km;
 - PAN(Metropolitan Area Network) 10km;
