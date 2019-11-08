@@ -15,12 +15,12 @@ Prima pushare i cambiamenti spostate le righe su cui avete lavorato alla fase su
     <li>fisico/multiplexing</li>
     <li>fisico/trasformatafourier</li>
     <li>fisico/mobile0g</li>
-    <li>fisico/retetelefonicaemodem: Andrea</li>
 </ol>
 
 
 ### Integrazione con il libro
 <ol>
+    <li>fisico/retetelefonicaemodem</li>
     <li>datalink/codicidicorrezione</li>
     <li>fisico/xDSL</li>
     <li>fisico/retetelegrafica</li>
