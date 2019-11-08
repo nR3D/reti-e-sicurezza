@@ -38,7 +38,6 @@ Prima pushare i cambiamenti spostate le righe su cui avete lavorato alla fase su
 
 ### Da semplificare e correggere l'italiano + Markdown
 <ol>
-    <li>intro: Leonardo</li>
     <li>fisico/intro</li>
     <li>fisico/wired</li>
     <li>fisico/wireless</li>
@@ -47,5 +46,6 @@ Prima pushare i cambiamenti spostate le righe su cui avete lavorato alla fase su
 
 ### Completati
 <ol>
+    <li>intro</li>
     <li>fisico/mobile1g</l1>
 </ol>

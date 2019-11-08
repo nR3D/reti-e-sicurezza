@@ -1,43 +1,47 @@
-# Intro
-Le definizioni di rete sono molteplici, ma una di queste è `Viene chiamata rete tutto ciò al cui interno si può identificare un grafo`.
+# Intro
+Le definizioni di rete sono molteplici, 
+Ma in questo corso si userà questa :”Si definisce rete tutto ciò che può essere visto sotto forma di grafo”.
 
-Questa definizione permette in ampia definizione della parola rete, ciò implica che la teoria successivamente studiata potrà essere applicata in un numero indefinito di casi, es. teorie sviluppate per le reti computazionali possono tornare utili anche per le reti stradali e viceversa.
+Questa definizione permette un’ampia definizione della parola rete, quindi la teoria successivamente studiata potrà essere applicata anche in cose esterne a questo corso, es. le teorie sviluppate per reti computazionali possono tornare utili anche per reti stradali e viceversa.
 
-Le reti di informazioni possono essere di diverse forme: client-server, peer-to-peer, reti di server dislocati, ecc...
-Tali tipologie di rete di reti assumono utilità differenti in casistiche differenti, un modo per categorizzale è in base alla distanza tra i vari componenti di tale rete:
+Le reti di informazioni possono essere categorizzate in più modi
+Per ruolo dei componenti: 
+- Client-server
+- Peer-to-Peer
+- Server dislocati
+Oppure in base all’estensione geografica della rete:
+- PAN(Personal Area Network) 1m;
+- LAN(Local Area Network) 10m-1km;
+- PAN(Metropolitan Area Network) 10km;
+- WAN(Wide Area Network) 100km-100km;
 
-- PAN(Personal Area Network) 1m;
-- LAN(Local Area Network) 10m-1km;
-- PAN(Metropolitan Area Network) 10km;
-- WAN(Wide Area Network) 100km-100km;
+Esistono reti molto più piccole e molto più grandi di quelle citate qui sopra, es. internet che attraversa tutto il pianeta, ma queste categorie rappresentano la maggior parte delle reti esistenti.
 
-Esistono ovviamente reti molto più piccole e molto più grandi di quelle citate qui sopra, es. internet che attraversa tutto il pianeta, ma sono anche quelle a cui si riconducono la maggiorparte delle reti esistenti.
+Le prime reti furono progettate focalizzandosi prima sull'hardware e poi successivamente sul software. Oggi c’è un approccio modulare a livelli, dove il livello base è dedicato all'hardware. Lo scopo di ciascun livello è di offrire certi servizi al livello superiore senza mostre la sua implementazione. Tra ogni coppia livello superiore-livello inferiore è definita un interfaccia che indica quale primitive(servizi) il livello inferiore offre a quello superiore.
 
-Le prime reti furono costruite focalizzandosi sull'hardware e poi successivamente sul software, ma questo approccio non funziona più. Le reti Software ora sono strutturate a livelli, con un livello di base dedicato all'hardware. Lo scopo di ciascun livello è di offrire certi servizi al livello superiore, schermandolo dai dettagli di come sia implementato tale sefvizio. Tra ogni coppia di livelli è definita un interfaccia che definisce quale primitive il servizio inferiore eroga a quello superiore.
+I livelli alla stessa altezza di componenti di rete diversi comunicano con i protocolli. Un protocollo è un accordo che definisce come avviene la comunicazione.
 
-Ad ogni livello vi sono dei protocolli, questo insieme si chiama pila di protocolli. Un protocollo è un accordo tra le parti che comunicano sul modo in cui deve procedere la comunicazione.
+L'insieme di livelli e protocolli si chiama architettura di rete.
 
-Le entità che formano i livelli di pari grado sui diversi computer sono chiamati peer; questi ultimi utilizzano i protocolli.
+Sono presenti diverse architetture di rete, un esempio è il modello OSI(Open System Interconnection) Sviluppato dall'ISO che ha  un'implementazione generale, elegante e valida.
 
-L'insieme di livelli e protocolli si chiama architettura di rete.
+## OSI
+I livelli del modello OSI:
+1. **Physical**: si occupa di trasmettere e ricevere i bit attraverso un canale di comunicazione fisico.
+2. **Data-Link**: Incapsula le unita di informazione ed identifica/corregge eventuali errori di trasmissione.
+3. **Network**: controlla le operazioni della rete, dicendo quali percorsi utilizzare per la trasmissione dei dati (routing), tenendo conto di eventuali congestioni
+4. **Transport**: fornisce il trasferimento dati tra processi, assicurandosi che le comunicazioni tra i layer più alti avvengano correttamente.
+5. **Session**: fornisce e mantiene le sessioni di comunicazione con una o più macchine.
+6. **Presentation**: si assicura che i dati siano rappresentati nel formato opportuno.
+7. **Application**: contiene una varietà di protocolli utilizzati dall'utente
 
-Sono presenti diverse architetture di rete, un esempio su tutti è il modello OSI(Open Sistem Interconnection) Sviluppato dall'iso che ha il vantaggio di avere un'implementazione generale e valida.
+Un’altro modello è il TCP/IP che ha implementazione ristretta rispetto all’OSI, ma che paradossalmente è utilizzato molto più.
 
-## OSI
-Il modello OSI ha  livelli:
-1. **Physical**: si occupa di trasmettere e ricevere i bit attraverso un canale di comunicazione
-2. **Data-Link**: Incapsula le unita di uinformazione ricevute/trasmesse ed identifica eventuali errori di trasmissione
-3. **Network**: contolla le operazioni della sottorete, dicendo quali percorsi utilizzare per la trasmissione dei dati (routing), controllando eventuali congestioni
-4. **Trasnport**: fornisce il traferimento dati trai processi, assicurandosi che le comunicazioni tra i layer più alti avvengano correttamente
-5. **Session**: fornisce e mantiene le sessioni di comunicazione tra diverse macchine
-6. **Presentation**: si assicura che i dati siano rappresentati nel formato opportuno
-7. **Application**: contiene una varietà di protocolli generalmente utilizzati dall'utente
+Il modello TCP/IP non presenta i livelli 5-6 e unisce i livelli 1-2 in un unico livello host-to-network. Questo non definisce un vero standard d’implementazione  e mescola hardware e software.
 
-Un modello contrapposto all'OSI è il TCP/IP che ha un'applicazione più ristretta, ma che paradossalmente è utilizzato molto più dell'OSI.
-
-Il modello TCP/IP non presenta i livelli 5-6 e unisce i livelli 1-2 nel livello host-to-network che non definisce un vero standard dall'implementazione tra tale livello di collegamento tra hardware e software, e la sua implementazione varia da host a host, e da newtork a network. Un compromesso di seguito usato è il modello ibrido (_hybrid layer_) che consiste in cinque layer:
-1. Physical
-2. Data-Link
-3. Network
-4. Transport
-5. Application
+Nasce quindi un modello ibrido, correntemente utilizzato che fonde L’OSI con il TCP/IP e consiste in cinque layer:
+1. Physical
+2. Data-Link
+3. Network
+4. Transport
+5. Application
