@@ -11,6 +11,7 @@ Prima pushare i cambiamenti spostate le righe su cui avete lavorato alla fase su
 ## Pipeline appunti:
 ### Da trascrivere
 <ol>
+    <li>datalink/codicidicorrezione: NB aggiungere le cose della lezione del 7 Novembre</li>
     <li>fisico/multiplexing</li>
     <li>fisico/trasformatafourier</li>
     <li>fisico/mobile0g</li>

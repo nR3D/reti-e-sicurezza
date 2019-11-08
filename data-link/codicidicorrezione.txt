@@ -1,0 +1,84 @@
+un'altro modo per vedere la parità di hamming è mediante le matrici
+es. per il codice 4,7 si usa una matrice 4 per sette moltiplico il vettore da 4 bit trasformandolo in un vettore a 7 
+si passa da uno spazio a 4 dim a 7
+possiamo vedere la matrice come due componenti:
+matrice identità 4x4 e il resto della matrice sono quelle che calcolano i bit di parità=> la prima colonna calcola il primo bit di parità (ignorando il primo bit del messaggio)  e così via, ogni bit di parità si prende in carico 3 bit di parità.
+eccolaaaa :
+1 0 0 0 | 0 1 1
+0 1 0 0 | 1 0 1
+0 0 1 0 | 1 1 0
+0 0 0 1 | 1 1 1 
+
+proprietà:
+- sono codici lineari
+
+###Def peso: quanti 1 ha un messaggio
+---codice di hamming (X,Y) e che ha dist minima di Hamming Z viene anche detto (X,Y,Z)
+(Y = lunghezza dei dati, X= lunghezza messaggio finale)
+teorema del peso minimo:
+---se il peso minimo dei vettori riga della matrice X,Y è d 
+allora la distanza minima è d => codice di hamming (X,Y,d)
+
+errore detecting: d-1
+errore correction: (d-1)/2
+
+confronto hamming con i repetition:
+con R3 banda 1/3 (33%)
+con (7,4)  4/7 di banda (57%)
+
+---per il controllo si moltiplica per una matrice di parità: molto rapido per la (7,4) esiste la (7,3)
+0 0 1
+0 1 0 => i bit di controllo
+1 0 0
+_ _ _  
+1 1 1
+0 1 1 
+1 0 1
+1 1 0
+
+se il risultato != 0  non è andata bene la trasmissione
+
+error correction: come si calcolare il valore giusto più vicino è lento  
+i codici lineari possono fare error recovery in maniera veloce sempre con somme e moltiplicazioni,
+praticamente vengono ricalcolati i bit di controllo e si fa un confronto per la correzione
+
+#Codici ibridi:
+Hamming (8,4) si aggiunge un'altro parity bit che prende tutti quelli dati (rompe la simmetria incaricando un bit della protezione di 4)=>
+alla matrice ha una colonna in più di soli uno => peso aumenta di uno riesco a aumentare di uno la potenza di controllo ma non quella di correzione (8,4,4)
+
+datarate passa da 57% a 50% 
+
+Hamming: (11,7)
+simmetria un diversa certi bit dati sono protetti poco certi di più, con l'idea comunque di mantenere il più alto grado di simmetria possibile => la scacchiera ha come peso minimo 5 => trova 4 errori ne corregge 4 
+datarate : 4/7 63.7%
+
+L'idea di hamming generalizza i codici parity bit e repetition, e sono tutti codici lineari
+es. pariti bit 3
+(a b c) => (a b c P)
+
+si puoò generare con una matrice 
+1 0 0 | 1
+0 1 0 | 1
+0 0 1 | 1 
+ la colonna dice prenditi carico di tutti i bit
+ quindi il peso minimo è due => è un codice hamming (4,3,2)
+
+es. reoetition3
+(a) => (a a a)
+matrice:
+1 | 1 1
+quindi è un codice hamming (3,1,3)
+
+Problemi Pratici: LA Realtà
+Gli errori: se non sappiamo nulla degli errori non so che strategia adottare
+Ma se gli errori hanno una struttura allora abbiamo un punto di partenza.
+strategia di burst: gli errori di solito accadono su bit consecutivi, martellate su gruppi di bit consecutivi e non su singoli bit
+è un problema mostruoso per l'error correcting, allora sfruttiamo la loro struttura a nostro vantaggio: 
+Il metodo della matrice invertita (interleaving):
+ribaltiamo il concetto di spazio tempo nelle trasmissioni
+=> dividiamo il blocco dati in blocchetti con i propri bit di parità, e cambiamo l'ordine di trasmissione dei dati: trasmettiamo per colonne (es. prima il primo bit di tutti i pacchetti poi il secondo, eccc.) così distribuiamo l'errore e diventa più probabile avere singoli errori nelle colonne (singoli pacchetti) prezzo da pagare, buffer dati (costo piccolo) 
+
+ 
+
+Storielle di Marc:
+Hamming viveva nel periodo delle schede perforate, si chiede c'è un modo di usare poche schede e avere una correzione dell'errore? yess l'ha inventeta lui
