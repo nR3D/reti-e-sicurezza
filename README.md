@@ -9,31 +9,19 @@ Prima di lavorare su gli appunti in una fase, fare un push del README aggiornand
 Prima pushare i cambiamenti spostate le righe su cui avete lavorato alla fase successiva togliendo il nome. Buon lavoro :)
 
 ## Pipeline appunti:
-### Da trascrivere
+### Trascrizione
 <ol>
-    <li>datalink/codicidicorrezione: NB aggiungere le cose della lezione del 7 Novembre</li>
+    <li>datalink/codicirilevaerrori<li>
     <li>fisico/multiplexing</li>
     <li>fisico/trasformatafourier</li>
     <li>fisico/mobile0g</li>
-</ol>
-
-### Trascrizione
-<ol>
     <li>fisico/retetelefonicaemodem: Andrea</li>
 </ol>
 
-### Da convertire in MarkDown
-<ol>
-    
-</ol>
-
-### In conversione in MarkDown
-<ol>
-    
-</ol>
 
 ### Integrazione con il libro
 <ol>
+    <li>datalink/codicidicorrezione</li>
     <li>fisico/xDSL</li>
     <li>fisico/retetelegrafica</li>
     <li>fisico/mobile4g5g</li>
@@ -48,17 +36,13 @@ Prima pushare i cambiamenti spostate le righe su cui avete lavorato alla fase su
     <li>datalink/framing</li>
 </ol>
 
-### Da semplificare e correggere l'italiano
+### Da semplificare e correggere l'italiano + Markdown
 <ol>
-    <li>intro</li>
+    <li>intro: Leonardo</li>
     <li>fisico/intro</li>
     <li>fisico/wired</li>
     <li>fisico/wireless</li>
     <li>datalink/intro</li>
-</ol>
-
-### In correzione dell'italiano
-<ol>
 </ol>
 
 ### Completati
