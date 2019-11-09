@@ -16,7 +16,7 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | datalink/codicirilevaerrori | ❌ | ❌ | ❌ | ❌ |
 | fisico/multiplexing | ❌ | ❌ | ❌ | ❌ |
 | fisico/trasformatafourier | ❌ | ❌ | ❌ | ❌ |
-| fisico/mobile0g | Leonardo | ❌ | ❌ | ❌ |
+| fisico/mobile0g | ✅ | ❌ | ❌ | ✅ |
 | fisico/retetelefonicaemodem | ✅ | ❌ | ❌ | ❌ |
 | fisico/xDSL | ✅ | ❌ | Leonardo | ✅ |
 | fisico/retetelegrafica | ✅ | ❌ | ❌ | ✅ |
