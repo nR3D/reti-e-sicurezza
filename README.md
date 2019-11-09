@@ -12,12 +12,12 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 ## Pipeline appunti:
 --------------------
 | Argomento | Trascritto | Integr. libro | Italiano | Formattazione |
+| --------- | ---------- | ------------- | -------- | ------------- | 
 | datalink/codicirilevaerrori | no | no | no | no |
 | fisico/multiplexing | no | no | no | no |
 | fisico/trasformatafourier |  no | no | no | no |
 | fisico/mobile0g | no | no | no | no |
 | fisico/retetelefonicaemodem | si | no | no | no |
-| datalink/codicidicorrezione | si | no | Leonardo | Leonardo |
 | fisico/xDSL | si | no | no | si |
 | fisico/retetelegrafica | si | no | no | si |
 | fisico/mobile4g5g | si | no | no | si |
@@ -30,6 +30,7 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | fisico/satelliti | si | no | no | si |
 | fisico/mobile3g | si | no | no | si |
 | datalink/framing | si | no | no | si |
+| datalink/codicidicorrezione | si | no | si | si |
 | fisico/intro | si | si | no | si |
 | fisico/wired | si | si | no | si | 
 | fisico/wireless | si | si | no | si |
