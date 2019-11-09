@@ -28,9 +28,9 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | fisico/dispersione | ✅ | ❌ | ❌ | ✅ |
 | fisico/datarate | ✅ | ❌ | ❌ | ✅ |
 | fisico/satelliti | ✅ | ✅ | ❌ | ✅ |
-| fisico/mobile3g | ✅ | ✅ | ❌ | ✅ |
+| fisico/mobile3g | ✅ | ✅ CDMA in multiplexing | ❌ | ✅ |
 | datalink/framing | ✅ | ❌ | ❌ | ✅ |
-| datalink/codicidicorrezione | ✅ | Michele | ✅ | ✅ |
+| datalink/codicidicorrezione | ✅ | ❌ | ✅ | ✅ |
 | fisico/intro | ✅ | ✅ | ✅ | ✅ |
 | fisico/wired | ✅ | ✅ | ✅ | ✅ | 
 | fisico/wireless | ✅ | ✅ | ✅ | ✅ |
