@@ -1,4 +1,4 @@
-# Appunti di Reti e Sicurezza del 
+# Appunti di Reti e Sicurezza 
 ## corso di Laurea in Informatica 
 ### UNIPD 2019
 
@@ -10,9 +10,9 @@ Prima di lavorare su gli appunti, fare un push del README scrivendo il nome  nel
 Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 
 ## Pipeline appunti:
---------------------
+
 | Argomento | Trascritto | Integr. libro | Italiano | Formattazione |
-| --------- | ---------- | ------------- | -------- | ------------- | 
+| :-- | :-: | :-: | :-: | :-: | 
 | datalink/codicirilevaerrori | ❌ | ❌ | ❌ | ❌ |
 | fisico/multiplexing | ❌ | ❌ | ❌ | ❌ |
 | fisico/trasformatafourier | ❌ | ❌ | ❌ | ❌ |
@@ -31,9 +31,9 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | fisico/mobile3g | ✅ | ❌ | ❌ | ✅ |
 | datalink/framing | ✅ | ❌ | ❌ | ✅ |
 | datalink/codicidicorrezione | ✅ | ❌ | ✅ | ✅ |
-| fisico/intro | ✅ | ✅ | ❌ | ✅ |
-| fisico/wired | ✅ | ✅ | ❌ | ✅ | 
-| fisico/wireless | ✅ | ✅ | ❌ | ✅ |
-| datalink/intro< | ✅ | ✅ | ❌ | ✅ |
+| fisico/intro | ✅ | ✅ | Alberto | ✅ |
+| fisico/wired | ✅ | ✅ | Alberto | ✅ | 
+| fisico/wireless | ✅ | ✅ | Alberto | ✅ |
+| datalink/intro | ✅ | ✅ | Alberto | ✅ |
 | intro | ✅ | ✅ | ✅ | ✅ |
 | fisico/mobile1g | ✅ | ✅ | ✅ | ✅ |
