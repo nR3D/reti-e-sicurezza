@@ -1,5 +1,5 @@
 ## Mobile 1G
-1982: la Bell Labs introduce il sistema AMPS  (Advanced Mobile Phone System), conosciuto in Italia come TACS (Total Access Communication System). Il sistema utilizzava una tecnologia simile a quella dell' IMTS (Improved Mobile Phone System) , ma con celle più piccole (10-20Km) che permettono un riuso più efficace delle frequenze permettendo accessibilità ad un maggior numero di utenti.
+1982: la Bell Labs introduce il sistema AMPS (Advanced Mobile Phone System), conosciuto in Italia come TACS (Total Access Communication System). Il sistema utilizzava una tecnologia simile a quella dell' IMTS (Improved Mobile Phone System) , ma con celle più piccole (10-20Km) che permettono un riuso più efficace delle frequenze permettendo accessibilità ad un maggior numero di utenti.
 
 L'utilizzo di celle più piccole porta anche alla diminuzione della potenza necessaria per trasmettere, comportando un drastico calo nelle dimensioni delle batterie e nei costi dei cellulari, permettendo così la nascita di telefoni sempre più piccoli ed economici.
 
@@ -13,7 +13,7 @@ Nella pratica non è sempre possibile utilizzare 4 colori: talvolta risulta nece
 
 Al centro di ogni cella si trova una stazione base che comunica con tutti i telefoni che si trovano al suo interno. Ogni stazione base è collegata ad un MSC (mobile switching center). In un sistema esteso è possibile collegare più MSC a livelli diversi. Gli MSC comunicano tra loro, con le stazioni base e con la rete telefonica fissa mediante una rete a commutazione di pacchetto.
 
-Ogni cellulare è agganciato ad una sola cella. Nel caso il segnale si indebolisca, viene effettuata una ricerca di una nuova cella in grado di fornire una ricezione migliore, nel caso venga trovata, viene effettuato il passaggio verso tale cella. Questa procedura si chiama handoff. La procedura di ricerca e di handoff è a carico della stazione base della cella a cui è collegato il cellulare: la stazione trasferisce la gestione dell'apparecchio alla cella che riceve il segnale più forte, di solito la cella in cui ora si trova il telefono. Il telefono viene così informato dell' identità della nuova centrale di controllo.
+Ogni cellulare è agganciato ad una sola cella. Nel caso il segnale si indebolisca, viene effettuata una ricerca di una nuova cella in grado di fornire una ricezione migliore, nel caso venga trovata, viene effettuato il passaggio verso tale cella. Questa procedura si chiama handoff. _La procedura di ricerca e di handoff è a carico della stazione base della cella a cui è collegato il cellulare_: la stazione trasferisce la gestione dell'apparecchio alla cella che riceve il segnale più forte, di solito la cella in cui ora si trova il telefono. Il telefono viene così informato dell' identità della nuova centrale di controllo.
 
 In un hard handoff, per permettere alla nuova cella di collegarsi, la cella utilizzata interrompe il collegamento con il cellulare, ma così facendo si ha un breve periodo di tempo (circa 0,3 secondi) in cui il telefono non avrà ricezione, provocando disagi nel caso si fosse nel mezzo di una chiamata.
 
