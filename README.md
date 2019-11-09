@@ -32,7 +32,7 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | datalink/framing | ✅ | ❌ | ❌ | ✅ |
 | datalink/codicidicorrezione | ✅ | ❌ | ✅ | ✅ |
 | fisico/intro | ✅ | ✅ | ❌ | ✅ |
-| fisico/wired | ✅ | ✅ | ✅ | ✅ | 
+| fisico/wired | ✅ | ✅ | ❌ | ✅ | 
 | fisico/wireless | ✅ | ✅ | ❌ | ✅ |
 | datalink/intro< | ✅ | ✅ | ❌ | ✅ |
 | intro | ✅ | ✅ | ✅ | ✅ |
