@@ -4,20 +4,18 @@
 ### Matrici di Hamming
 
 La parità di Hamming può essere rappresentata con le matrici
-es. Matrice di trasformazione dei codici (7,4)
-
-Significato della riga:
-
-|-> a 1 bit dati selezionato          
-| +-+-+ |->  a 1 i bit che lo proteggono
-1 0 0 0 | 0 1 1 
-0 1 0 0 | 1 0 1 
-0 0 1 0 | 1 1 0
-0 0 0 1 | 1 1 1
+es. Matrice di trasformazione dei codici (7,4)<br>
+Significato della riga:<br>
+|-> a 1 bit dati selezionato<br>         
+| +-+-+ |->  a 1 i bit che lo proteggono<br>
+1 0 0 0 | 0 1 1<br>
+0 1 0 0 | 1 0 1<br>
+0 0 1 0 | 1 1 0<br>
+0 0 0 1 | 1 1 1<br>
 
 Il prodotto righe per colonne tra il vettore dati lungo 4 bit e la matrice è un vettore contenente gli stessi dati con concatenati i 3 bit di parità. Si passa da uno spazio a 4 dimensioni a uno a 7.
 La matrice è composta da due componenti distinte: 
-una matrice identità 4x4 e una le cui colonne sono associate a un bit di parità che indica quali dati protegge. In questo esempio la prima colonna calcola il primo bit di parità ignorando il primo bit dati
+una matrice identità 4x4 e una le cui colonne sono associate a un bit di parità che indica quali dati protegge. In questo esempio la prima colonna calcola il primo bit di parità ignorando il primo bit dati.<br>
 
 *Def peso: quanti 1 contiene una stringa di bit*
 
@@ -37,13 +35,13 @@ con R3 banda 1/3 (33%)
 con (7,4)  4/7 di banda (57%)
 
 - **Check lineare:** per controllare la correttezza si moltiplica il messaggio ricevuto per una matrice di parità. Può essere implementato in hardware rendendolo ancora più veloce. <br>
-0 0 1 
-0 1 0 => bit di controllo
-1 0 0
-. . . .   
-1 1 1
-0 1 1 => dati controllati 
-1 0 1
+0 0 1<br>
+0 1 0 => bit di controllo<br>
+1 0 0<br>
+. . . .<br>   
+1 1 1<br>
+0 1 1 => dati controllati<br> 
+1 0 1<br>
 1 1 0 <br>
 Se un elemento del vettore risultante è 1 vuol dire che c'è stato un errore nella trasmissione.
 
@@ -58,24 +56,22 @@ Se un elemento del vettore risultante è 1 vuol dire che c'è stato un errore ne
 ### Generalizzazione
 
 L'idea di Hamming generalizza sia i codici parity bit che repetition, e quindi sono tutti codici lineari
+<br>
+es. parity bit su 3 bit<br>
+(a b c) => (a b c P)<br>
+si può generare con una matrice:<br>
 
-es. parity bit su 3 bit
-(a b c) => (a b c P)
-si può generare con una matrice
+1 0 0 | 1<br>
+0 1 0 | 1<br>
+0 0 1 | 1<br> 
 
-1 0 0 | 1
-0 1 0 | 1
-0 0 1 | 1 
+la colonna rappresenta 1 bit che si prende carico di tutto.<br>
+Il peso minimo è due, quindi è un codice Hamming (4,3,2)<br>
 
-la colonna rappresenta 1 bit che si prende carico di tutto.
-Il peso minimo è due, quindi è un codice Hamming (4,3,2)
-
-es. repetition su 3 bit
-(a) => (a a a)
-matrice:
-
-1 | 1 1
-
+es. repetition su 3 bit<br>
+(a) => (a a a)<br>
+matrice:<br>
+1 | 1 1<br>
 quindi è un codice Hamming (3,1,3)
 
 ### Problemi pratici:
