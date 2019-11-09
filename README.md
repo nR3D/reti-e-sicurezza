@@ -31,9 +31,9 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | fisico/mobile3g | ✅ | ❌ | ❌ | ✅ |
 | datalink/framing | ✅ | ❌ | ❌ | ✅ |
 | datalink/codicidicorrezione | ✅ | ❌ | ✅ | ✅ |
-| fisico/intro | ✅ | ✅ | Alberto | ✅ |
-| fisico/wired | ✅ | ✅ | Alberto | ✅ | 
-| fisico/wireless | ✅ | ✅ | Alberto | ✅ |
-| datalink/intro | ✅ | ✅ | Alberto | ✅ |
+| fisico/intro | ✅ | ✅ | ✅ | ✅ |
+| fisico/wired | ✅ | ✅ | ✅ | ✅ | 
+| fisico/wireless | ✅ | ✅ | ✅ | ✅ |
+| datalink/intro | ✅ | ✅ | ✅ | ✅ |
 | intro | ✅ | ✅ | ✅ | ✅ |
 | fisico/mobile1g | ✅ | ✅ | ✅ | ✅ |
