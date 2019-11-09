@@ -1,7 +1,7 @@
 ## Codici di correzione degli errori
 ---------------------------------
 
-##### Matrici di Hamming
+### Matrici di Hamming
 
 La parità di Hamming può essere rappresentata con le matrici
 es. Matrice di trasformazione dei codici (7,4)
@@ -21,7 +21,7 @@ una matrice identità 4x4 e una le cui colonne sono associate a un bit di parit�
 *Def peso: quanti 1 contiene una stringa di bit*
 
 
-###### Proprietà:
+### Proprietà:
 
 - **Sono Lineari:** Grazie all'uso delle matrici i codici possono essere elaborati solo con moltiplicazioni e addizioni.
 
@@ -50,13 +50,13 @@ Se un elemento del vettore risultante è 1 vuol dire che c'è stato un errore ne
 
 - **Error correction lineare** Calcolare il valore giusto più vicino è lento, ma i codici lineari possono fare error recovery ricalcolando i bit di controllo e confrontandoli con ciò che si è ricevuto.
 
-###### Codici ibridi
+### Codici ibridi
 
 **Hamming (8,4)** si aggiunge un'altro parity bit calcolato sui 4 di dati (rompe la simmetria incaricando un bit di proteggerne 4 mentre gli altri ne proteggono 3). Alla matrice si accoda una colonna in più di soli 1, il peso incrementa e quindi incrementa anche la potenza di controllo ma non quella di correzione (8,4,4), Ha un data rate del 50%
 
 **Hamming(11,7)** Ancora meno simmetrico, quindi certi bit dati sono meno protetti di altri, ma comunque si prova a mantenere il più alto grado di simmetria possibile. La matrice ha come peso minimo 5, riesce a trovare 4 errori e correggerne 2, ha un datarate del 63.7%
 
-###### Generalizzazione
+### Generalizzazione
 
 L'idea di Hamming generalizza sia i codici parity bit che repetition, e quindi sono tutti codici lineari
 
@@ -76,7 +76,7 @@ matrice:
 1 | 1 1
 quindi è un codice Hamming (3,1,3)
 
-###### Problemi pratici:
+### Problemi pratici:
 
 Nella realtà le interferenze si presentano sotto forma di burst: gli errori accadono su più bit consecutivi.
 È un problema mostruoso per l'error correcting che può funzionare solo su pochi bit per messaggio.
