@@ -2,7 +2,7 @@
 ## corso di Laurea in Informatica 
 ### UNIPD 2019
 
-## Per ontribuire:
+## Per contribuire:
 Trascrivere gli appunti preferibilmente in formato markdown (.md), in caso sia stato già trascritto il un file .txt allora sarà necessario convertirlo in formato .md ed eliminare la copia .txt una volta ultimata la conversione.
 
 Prima di lavorare su gli appunti, fare un push del README scrivendo il nome  nella casella dove lavorerete, antiridondanza.
