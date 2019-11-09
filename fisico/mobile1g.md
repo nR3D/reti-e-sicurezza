@@ -23,7 +23,7 @@ La tecnologia 1G vuole poter gestire un numero di utenti sempre maggiore, dunque
 Questi 832 canali sono divisi in quattro categorie:
 1. controllo: per la gestione del sistema
 2. paging: per avvisare gli utenti delle chiamate in arrivo
-3. accesso:per impostare la chiamata e l'assegnazione del canale
+3. accesso: per impostare la chiamata e l'assegnazione del canale
 4. dati: per voce, fax o dati.
 
 Ogni cellulare possiede un numero seriale di 32 bit ed un numero telefonico di 10 cifre a 34 bit. Ogni 15 minti ogni cellulare invia in broadcast i propri 32+34 bit per potersi registrare alla cella più vicina. Quesa trasmissione viene effettuata in chiaro: è possibile poter clonare un cellulare intercettando questi dati. La richiesta viene effettuata in un canale apposito (e condiviso), mentre in ricezione viene utilizzato un ulteriore canale (sempre condiviso) di paging, canale che i cellulari consultano per sapere se soono presenti chiamate che li riguardano.
