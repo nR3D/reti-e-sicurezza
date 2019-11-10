@@ -29,7 +29,7 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | fisico/datarate | ✅ | ❌ | ❌ | ✅ |
 | fisico/satelliti | ✅ | ✅ | ❌ | ✅ |
 | fisico/mobile3g | ✅ | ✅ CDMA in multiplexing | ❌ | ✅ |
-| datalink/framing | ✅ | ✅ | ❌ | ✅ |
+| datalink/framing | ✅ | ✅ | ✅ | ✅ |
 | datalink/codicidicorrezione | ✅ | ❌ | ✅ | ✅ |
 | fisico/intro | ✅ | ✅ | ✅ | ✅ |
 | fisico/wired | ✅ | ✅ | ✅ | ✅ | 
