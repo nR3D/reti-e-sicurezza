@@ -1,16 +1,37 @@
 ## Comunicazioni satellitari
-Nelle comunicazionei satellitari un asoetti chiave è l'altezza orbitale del satellite, infatti un'orbita bassa saranno necessare molti satelliti saranno necessari molti sateliti per comprire la superfice terrestre, mentre un satellite più alto avrà un meggior tempo di latenza del segnale. In aggiunta, è presente una proporzionalita quatratica tra potenza necessaria alla trasmissione e l'altitudine del satellite.
-un'altro problema per i satelliti a maggio altitudine è la presenza di due fasce di particelle ioniche intrappolate nel campo magnetico terrestre dette fasce di Van Allen.
-Sono presenti tre fasce satellitari: GEO, MEO E LEO.
-### GEO
-Satelliti geostazionari posizionati al di sopra delle fasce di Van Allen.
-L'unica orbita geostazionaria che non richiede correzioni artificiali è quella equatoriale, quindi si presenta un problema di sovraffollamento di questa fascia, con conseguenti problemi di interferenza e difficolta di inserire un nuovo satellite senza collidere con quelli già presenti, infatti c'è un limite di 180 satelliti per quest'orbita.
-In orbita GEO ci sono satelliti spia, satilliti metereologiche e satelliti per trasmissioni televisive Direct Signal Broadcast.
-### MEO
-Satelliti ad orbita media tra le due fasce di Van Hallen
-tecnologia esemplificativa dei satelliti MEO è il GPS: composto da circa 30 satelliti della difesa statunitense, tecnologia rea pubblica nel 1983 a seguito di un incidente di un aereo in territorio Russo. Prima fu resa pubblica con una precisione di 100 metri, ma per l'uso che ne viene fatto al di fuori dell'aviazione nel due mila viene ridotto a 20m. il GPS ha un tempo fisso di "fix" in cui il chip identifica i satelliti più vicini che permettono di triangolare il segnale; esiste l' Assisted-GPS che utilizza le celle telefoniche(fisse sul territorio) per velocizzare il processo di identificazione dei satelliti vicini, oppure tramite l'uso di un barometro per capire la propria altitudine. Alternatica russa che usa 28 satelliti è il GLONASS può essere utile per un controllo incrociato con il GPS. Per la localizzaione prima si utlilizzava il progetto TRANSIT che consiste in piccoli satelliti con radio trasmettitori che emettono brevi segnali radio, transitando veloci sopra la superficie terrestred è possibile approssimare la propria posizione usando l'effetto Doppler.
-### LEO
-Satelliti ad orbita bassa posizionati al di sotto delle due fasce di Van Hallen
-Basso tempo di latenza, ottimo per telecomunicazioni satellitari, anche se data la bassa altitudine orbitale saranno necessari più satelliti per una copertura ottimale della superfiie terrestre. Un esempio è iridium che con 77 satelliti (poi diminuiti a 66) era il prima sistema di telecomunicazione globale in grado di coprire anche luoghi non precedentemente raggiungibili, ogni satellite iridium ha 48 celle telefoniche, il segnale una volta raggiunto al satellite viene inviato attraverso la rete di satelliti (senza le interferenze presenti nell'atmosfera terrestre) però il maggior problema del sistema iridium, oltre ai costi di gestione, è che l'utente necessita di un telefono cellulare con antenna adeguata a una comunicazione satellitare, che rende ingombrante l'utilizzo e il trasporto. Un altro esempio di telecomunicazopme satellitare è il sistema globestar, che tenta di abbassare la gestione dell'infrastruttura satellitare attraverso un ariduzione dell'utilizzo dei satelliti; I satelliti globestar vengono infatti usati solamente per ricevere il segnale dell'utente e consegnarlo al ricevente, mentre la trasmissione del segnale tra questi due satelliti avviene via terra attraverso dei ripetitori; il punto debole del servizio è però l'eccessivo risparmio sulle tecnologie satellitari, infatti un satellite globestar ha una vita media di 7,5 ani rispetto ai 23 di un satellite iridium.
 
-Il problema più rilavante dei satelliti è quello della fine dei satelliti non più utilizzati che restano in orbita terrestre accumulando così detriti spaziali. la soluzione odierna è quello di spedire i satelliti non più usati in un orbita riservata. Comunque i detriti spaziali di dimensione superiore ai 10 cm sono tracciati dalla Inter-aging soase debree coordination comitee che si occupa di informare i proprietari dei satelliti sulla probabilità di collisione tra satellite e rottame. di media si ricevono 10 segnalazioni a settimana
+Un aspetto di fondamentale importanza nelle comunicazionei satellitari è l'altezza di orbita del satellite. 
+Se vogliamo coprire interamente la superficie terreste usando un'orbita bassa sara` necessario usare molti satelliti.
+Se vogliamo usare meno satelliti siamo costretti ad utilizzare orbite alte, sacrificando la possibilita` di avere un segnale a bassa latenza.
+Inoltre, bisogna considerare che c'e' una proporzionalita' quatratica tra potenza necessaria alla trasmissione e l'altitudine del satellite. Questo significa che trasmettere lo stesso segnale da altezze maggiori richiede una quantita` di energia non indifferente.
+Un'altro problema che sorge con le trasmissioni inviate dai satelliti piu` alti è che queste devono fare i conti con la presenza di due fasce di particelle ioniche intrappolate nel campo magnetico terrestre: queste fasce, dette di Van Allen, non solo rendono difficile trasmettere, ma complicano anche la messa in orbita dei satelliti.
+Sono presenti tre orbite in cui i satelliti vengono posizionati, diversificate per la loro altitudine: GEO, MEO E LEO.
+Comprendere i vantaggi e gli svantaggi di ogni orbita permette di capire le potenzialita` dei vari servizi.
+
+### GEO
+
+
+Questi sono i satelliti geostazionari posizionati al di sopra delle fasce di Van Allen.
+L'unica orbita geostazionaria che non richiede correzioni di rotta per non perdersi nello spazio è quella equatoriale. Vista la convenienza di quest'orbita, questa si e` presto sovraffolata, causando problemi di interferenza e difficolta' nell'inserire un nuovo satellite senza farlo collidere con quelli già presenti.
+E` stato fissato un limite di 180 satelliti per quest'orbita.
+In orbita GEO ci sono i satelliti spia, i satilliti metereologici e i satelliti per le trasmissioni televisive Direct Signal Broadcast.
+
+### MEO
+
+Sono i satelliti ad orbita media: si trovano tra le due fasce di Van Allen.
+Un esempio di tecnologia che utizza i stelliti in orbita media è il GPS: composto da circa 30 satelliti della difesa statunitense, questa tecnologia venne ufficialmente resa pubblica nel 1983 a seguito di un incidente aereo in territorio Russo. In un primo momento fu resa pubblica con una precisione di 100 metri, ma viste le potenzialita` nel 2000 la precisione venne aumentata a 20 metri.
+Il GPS ha un tempo fisso di "fix" in cui il chip identifica i satelliti più vicini che permettono di triangolare il segnale; esiste l'Assisted-GPS che utilizza le celle telefoniche (fisse sul territorio e la cui posizione e` nota) per velocizzare il processo di identificazione dei satelliti vicini, oppure tramite l'uso di un barometro per capire la propria altitudine.
+Oltre al GPS, un altro sistema di localizzazione e` l'alternativa russa GLONASS. GLONASS usa 28 satelliti e può essere utile per un controllo incrociato con il GPS.
+Prima di queste tecnologie, per la localizzaione si utlilizzava TRANSIT, che consisteva in piccoli satelliti con radio trasmettitori, che transitando veloci sopra la superficie terrestre ed emettendo brevi segnali radio, rendevano possibile approssimare la propria posizione usando l'effetto Doppler.
+
+
+### LEO
+
+
+Sono i satelliti ad orbita bassa, posizionati al di sotto delle due fasce di Van Allen
+Il loro basso tempo di latenza li rende ottimi per l'impiego in applicazioni di telecomunicazione satellitari, anche se data la bassa altitudine saranno necessari più satelliti per una copertura ottimale della superfiie terrestre.
+Un esempio è Iridium che con 77 satelliti (poi diminuiti a 66) era il prima sistema di telecomunicazione globale in grado di coprire anche luoghi non precedentemente raggiungibili. Ogni satellite iridium ha 48 celle telefoniche. Il segnale una volta inviato al satellite viene inoltrato attraverso la rete di satelliti (quindi senza le interferenze presenti nell'atmosfera terrestre). Il maggior problema del sistema Iridium, oltre ai costi di gestione, è che l'utente necessita di un cellulare con un'antenna adeguata ad una comunicazione satellitare, che rende scomodo l'utilizzo ed il trasporto del dispositivo. 
+Un altro esempio di telecomunicazione satellitare è il sistema Globestar, che tenta di abbassare la gestione dell'infrastruttura satellitare attraverso una riduzione dell'utilizzo dei satelliti; I satelliti Globestar vengono infatti usati solamente per ricevere il segnale dell'utente e consegnarlo al ricevente, mentre la trasmissione del segnale tra questi due satelliti avviene via terra attraverso dei ripetitori. Il punto debole di questo servizio è stato l'eccessivo risparmio sulle tecnologie satellitari, infatti un satellite Globestar ha una vita media di 7,5 anni rispetto ai 23 di un satellite Iridium.
+
+Il problema più rilevante dei satelliti è che hanno una durata ben definita: alla fine della loro vita i satelliti non più utilizzati restano in orbita, accumulandosi, e contribuendo al problema dei detriti spaziali. La soluzione adottata al giorno d'oggi è quella di spedire i satelliti non più usati in un'orbita riservata.
+I detriti spaziali di dimensione superiore ai 10 cm sono tracciati dalla Inter-Agency Space Debris Coordination Commitee, che si occupa di informare i proprietari dei satelliti sulla probabilità di collisione tra satellite e rottame. di media si ricevono 10 segnalazioni a settimana.
