@@ -1,5 +1,5 @@
-# Appunti di Reti e Sicurezza 
-## corso di Laurea in Informatica 
+# Appunti di Reti e Sicurezza
+## corso di Laurea in Informatica
 ### UNIPD 2019
 
 ## Per contribuire:
@@ -12,7 +12,7 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 ## Pipeline appunti:
 
 | Argomento | Trascritto | Integr. libro | Italiano | Formattazione |
-| :-- | :-: | :-: | :-: | :-: | 
+| :-- | :-: | :-: | :-: | :-: |
 | datalink/codicirilevaerrori | ❌ | ❌ | ❌ | ❌ |
 | fisico/multiplexing | ❌ | ❌ | ❌ | ❌ |
 | fisico/trasformatafourier | ✅ | ✅ | ❌ | ❌ |
@@ -25,13 +25,13 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | fisico/satellitivsfibra | ✅ | ✅ | ❌ | ✅ |
 | fisico/capacitatrasmissione | ✅ | ✅ | ❌ | ✅ |
 | fisico/attenuazione | ✅ | ✅ | ❌ | ✅ |
-| fisico/dispersione | ✅ | ✅ | ❌ | ✅ |
-| fisico/satelliti | ✅ | ✅ | ❌ | ✅ |
+| fisico/dispersione | ✅ | ✅ | Davide | ✅ |
+| fisico/satelliti | ✅ | ✅ | Stefano | ✅ |
 | fisico/mobile3g | ✅ | ✅ CDMA in multiplexing | ❌ | ✅ |
 | datalink/framing | ✅ | ✅ | ✅ | ✅ |
 | datalink/codicidicorrezione | ✅non finito in classe| ❌ | ✅ | ✅ |
 | fisico/intro | ✅ | ✅ | ✅ | ✅ |
-| fisico/wired | ✅ | ✅ | ✅ | ✅ | 
+| fisico/wired | ✅ | ✅ | ✅ | ✅ |
 | fisico/wireless | ✅ | ✅ | ✅ | ✅ |
 | datalink/intro | ✅ | ✅ | ✅ | ✅ |
 | intro | ✅ | ✅ | ✅ | ✅ |
