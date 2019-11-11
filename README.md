@@ -17,9 +17,9 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | fisico/multiplexing | ❌ | ❌ | ❌ | ❌ |
 | fisico/trasformatafourier | ✅ | ✅ | ❌ | ❌ |
 | fisico/mobile0g | ✅ | ✅ | ❌ | ✅ |
-| fisico/retetelefonicaemodem | ✅ | ❌ | ❌ | ✅ |
+| fisico/retetelefonicaemodem | ✅ | Michele | ❌ | ✅ |
 | fisico/xDSL | ✅ | ✅ | ✅ | ✅ |
-| fisico/retetelegrafica | ✅ | ❌ | ❌ | ✅ |
+| fisico/retetelegrafica | ✅ | Michele | ❌ | ✅ |
 | fisico/mobile4g5g | ✅ | ✅ | ❌ | ✅ |
 | fisico/mobile2g | ✅ | ✅ | ❌ | ✅ |
 | fisico/satellitivsfibra | ✅ | ✅ | ❌ | ✅ |
