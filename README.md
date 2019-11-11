@@ -23,7 +23,7 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | fisico/mobile4g5g | ✅ | ✅ | ❌ | ✅ |
 | fisico/mobile2g | ✅ | ✅ | ❌ | ✅ |
 | fisico/satellitivsfibra | ✅ | ✅ | ❌ | ✅ |
-| fisico/capacitatrasmissione | ✅ | ✅ | ❌ | ✅ |
+| fisico/capacitatrasmissione | ✅ | ✅ | Bobo | ✅ |
 | fisico/attenuazione | ✅ | ✅ | ✅ | ✅ |
 | fisico/dispersione | ✅ | ✅ | ✅ | ✅ |
 | fisico/satelliti | ✅ | ✅ | Stefano | ✅ |
