@@ -15,7 +15,7 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | :-- | :-: | :-: | :-: | :-: | 
 | datalink/codicirilevaerrori | ❌ | ❌ | ❌ | ❌ |
 | fisico/multiplexing | ❌ | ❌ | ❌ | ❌ |
-| fisico/trasformatafourier | Michele | ❌ | ❌ | ❌ |
+| fisico/trasformatafourier | Mancano appunti | ❌ | ❌ | ❌ |
 | fisico/mobile0g | ✅ | ✅ | ❌ | ✅ |
 | fisico/retetelefonicaemodem | ✅ | ❌ | ❌ | ✅ |
 | fisico/xDSL | ✅ | Michele | ✅ | ✅ |
@@ -24,9 +24,9 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | fisico/mobile2g | ✅ | ✅ | ❌ | ✅ |
 | fisico/satellitivsfibra | ✅ | ✅ | ❌ | ✅ |
 | fisico/capacitatrasmissione | ✅ | ❌ | ❌ | ✅ |
-| fisico/attenuazione | ✅ | ❌ | ❌ | ✅ |
-| fisico/dispersione | ✅ | ❌ | ❌ | ✅ |
-| fisico/datarate | ✅ | ❌ | ❌ | ✅ |
+| fisico/attenuazione | ✅ | Michele | ❌ | ✅ |
+| fisico/dispersione | ✅ | Michele | ❌ | ✅ |
+| fisico/datarate | ✅ | Michele | ❌ | ✅ |
 | fisico/satelliti | ✅ | ✅ | ❌ | ✅ |
 | fisico/mobile3g | ✅ | ✅ CDMA in multiplexing | ❌ | ✅ |
 | datalink/framing | ✅ | ✅ | ✅ | ✅ |
