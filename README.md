@@ -15,10 +15,10 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | :-- | :-: | :-: | :-: | :-: | 
 | datalink/codicirilevaerrori | ❌ | ❌ | ❌ | ❌ |
 | fisico/multiplexing | ❌ | ❌ | ❌ | ❌ |
-| fisico/trasformatafourier | ✅ | Michele | ❌ | ❌ |
+| fisico/trasformatafourier | ✅ | ✅ | ❌ | ❌ |
 | fisico/mobile0g | ✅ | ✅ | ❌ | ✅ |
 | fisico/retetelefonicaemodem | ✅ | ❌ | ❌ | ✅ |
-| fisico/xDSL | ✅ | Michele | ✅ | ✅ |
+| fisico/xDSL | ✅ | ✅ | ✅ | ✅ |
 | fisico/retetelegrafica | ✅ | ❌ | ❌ | ✅ |
 | fisico/mobile4g5g | ✅ | ✅ | ❌ | ✅ |
 | fisico/mobile2g | ✅ | ✅ | ❌ | ✅ |
