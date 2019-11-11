@@ -16,12 +16,14 @@ Standard ADSL:<br>
 - ADSL2(annex J): 12 Mbps download, 3.5 Mbps upload<br>
 - ADSL2+: 24 Mbps download, 1 Mbps upload<br>
 - ADSL2+(annex M): 28 Mbps download, 3.5 Mbps upload<br>
+
 Le ADSL2+ utilizzano una banda doppia di 2.2 MHz anzichè 1.1 MHz, che però necessita di una linea particolarmente buona. Le ADSL 2 e 2+ supportano anche varianti "all-digital" in cui si rinuncia alla parte voce per guadagnare 256 Kbps in upstream.
 Il limite di 28 Mbps dell'ADSL risulta però ancora limitativo, sopratutto a seguito dell'aumento dello streaming video avvenuto negli ultimi decenni. E' nato perciò un nuovo standard basato sulla crescente diffusione della fibra, che permette l'utilizzo di frequenze sempre più alte: la VDSL (Very Hight Speed DSL, o informalmente detta anche Video DSL perchè spinta dalla necessità dello streaming video).<br>
 Tipologie VDSL:<br>
 - VDSL(2001): QAM, 55 Mbps download, 3 Mbps upload<br>
 - VDSL2(2006): FDM, 200 Mbps download, 100 Mbps upload<br>
 - VDSL2+(2011): FDM, 300 Mbps download, 100 Mbps upload<br>
+
 Tali velocità però dipendono da quanto cavo UTP3 separa l'utente dal provider, per esempio dopo 1.0 Km di UTP3 la connessione VDSL2 degrada in ADSL2. Per quanto riguarda la banda utilizzata non esiste un unica divisione fissa tra upload e download come per l'ADSL, ma viene data della libertà di scelta con i band plans.
 Più si ramifica l'infrastruttura telecomunicativa e più risulta necessario gestire un gran numero di comunicazioni contemporaneamente. La soluzione risiede nell'utilizzo di un multiplexing FDM attraverso group/super group con i quali si passa da 600 comunicazioni per cavo fino a 230000.
 Nel caso della fibra, però, non viene più utilizzato il termine frequenza, ma lunghezza d'onda, dunque il multiplexing FDM viene chiamato WDM (Wavelength Division Multipllexing). Nel 1990 era possibile trasmettere 8 canali da 2.5Gbps ciascuno attraverso un singolo cavo di fibra, nel 2007 si è arrivati a 124 canali da 50 Gbps ciascuno, fino ad arrivare ai 32000 Gbps trasmessi in singolo cavo in fibra nel 2014.
