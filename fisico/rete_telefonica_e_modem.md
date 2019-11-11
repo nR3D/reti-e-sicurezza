@@ -1,10 +1,10 @@
-## Rete Telefonica e Modem
-
+## Rete Telefonica
 Il sistema telefonico fu la seconda grande rete mai creata, inizialmente sviluppata come overlay della grande rete telegrafica.
 All'inizio del 1876 una linea telefonica (point-to-point) era composta da una coppia di telefoni, direttamente collegati tra loro. Risultò subito chiaro che non era conveniente avere un grafo super connesso tra tutti i telefoni presenti in una rete (relazione quadratica tra telefoni e connessioni necessarie). Nel 1878 ci fu il passaggio agli switching center (centralini telefonici) che avevano il compito di creare la linea tra due telefoni connettendo fisicamente il cavo del chiamante con quello del ricevente.
 Col diffondersi dei telefoni i centralini iniziarono però ad avere troppe connessioni da gestire, si decise dunque di creare dei centralini di secondo livello che avevano il compito di connettere tra loro quelli di primo livello.
 Questo innalzamento di livello provoca però un maggiore tempo di attesa per un utente prima che venga collegato all'altra linea. Tale situazione scalò fino ad arrivare a cinque livelli, creando la così detta PSTN (Public Switching Telephone Network).
 Il "local loop" (in italiano detto l' "ultimo miglio") è la rete UTP3 (cavi poco performanti) che connette la rete centrale con i singoli telefoni degli utenti.
+Tra centrali di commutazione si fa largo uso di cavi coassiali, microonde e, soprattutto, fibre ottiche.
 
 Nel 1984 gli Stati Uniti liberalizzarono il mercante delle telecomunicazioni permettendo ai nuovi competitor il diritto di inserimento nell'infrastruttura comunicatuva.
 Nel 1995 il termine telecomunicazioni fu ulteriormente esteso includendo anche connessioni quali la TV via cavo.
@@ -23,11 +23,13 @@ Con una costellation diagram è possibile rappresentare graficamente le forme d'
 Maggiori sono gli angoli utilizzati per le fasi d'onda e maggiore sarà il rapporto tra bitrate e bandrate:<br>
 - QPSK: 4 fasi, bitrate doppio del bandrate
 - QAM-16: 16 fasi, bitrate quadruplo del bandrate
-- Qam-64: 64 fasi, bitrate sestuplo del bandrate
+- QAM-64: 64 fasi, bitrate sestuplo del bandrate
 
 Esistono però modi migliori di disporre i segnali nel diagramma, per prevenire ulteriormente l'interferenza tra le singole fasi e permettendo così un maggiore margine di incertezza dovuto alla dispersione e ai rumori esterni. Un esempio sono le modulazioni circolari QAM (es immagine QAM-8).
 In generale si tende però a preferire l'ultilizzo di angoli più facili da generare e (de)codificare.
 
+## Modem
+Modem significa _modulator demodulator_. Si colloca tra il computer (digitale) e il sistema telefonico (analogico).<br>
 Principali standard utilizzati dai modem:
 - V.21 (1964): modulazione a frequenza, 300 bps
 - V.22 (1980): modulazione di fase, 1.2 kbps
