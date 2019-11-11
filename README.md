@@ -17,13 +17,13 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | fisico/multiplexing | ❌ | ❌ | ❌ | ❌ |
 | fisico/trasformatafourier | ✅ | ✅ | ❌ | ❌ |
 | fisico/mobile0g | ✅ | ✅ | ❌ | ✅ |
-| fisico/retetelefonicaemodem | ✅ | Michele | ❌ | ✅ |
+| fisico/retetelefonicaemodem | ✅ | ✅ | ❌ | ✅ |
 | fisico/xDSL | ✅ | ✅ | ✅ | ✅ |
-| fisico/retetelegrafica | ✅ | Michele | ❌ | ✅ |
+| fisico/retetelegrafica | ✅ | ✅ | ❌ | ✅ |
 | fisico/mobile4g5g | ✅ | ✅ | ❌ | ✅ |
 | fisico/mobile2g | ✅ | ✅ | ❌ | ✅ |
 | fisico/satellitivsfibra | ✅ | ✅ | ❌ | ✅ |
-| fisico/capacitatrasmissione | ✅ | ✅ | Bobo | ✅ |
+| fisico/capacitatrasmissione | ✅ | ✅ | ✅ | ✅ |
 | fisico/attenuazione | ✅ | ✅ | ✅ | ✅ |
 | fisico/dispersione | ✅ | ✅ | ✅ | ✅ |
 | fisico/satelliti | ✅ | ✅ | Stefano | ✅ |
