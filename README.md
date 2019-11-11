@@ -15,10 +15,10 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | :-- | :-: | :-: | :-: | :-: | 
 | datalink/codicirilevaerrori | ❌ | ❌ | ❌ | ❌ |
 | fisico/multiplexing | ❌ | ❌ | ❌ | ❌ |
-| fisico/trasformatafourier | ❌ | ❌ | ❌ | ❌ |
+| fisico/trasformatafourier | Michele | ❌ | ❌ | ❌ |
 | fisico/mobile0g | ✅ | ✅ | ❌ | ✅ |
 | fisico/retetelefonicaemodem | ✅ | ❌ | ❌ | ✅ |
-| fisico/xDSL | ✅ | ❌ | ✅ | ✅ |
+| fisico/xDSL | ✅ | Michele | ✅ | ✅ |
 | fisico/retetelegrafica | ✅ | ❌ | ❌ | ✅ |
 | fisico/mobile4g5g | ✅ | ✅ | ❌ | ✅ |
 | fisico/mobile2g | ✅ | ✅ | ❌ | ✅ |
@@ -30,7 +30,7 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | fisico/satelliti | ✅ | ✅ | ❌ | ✅ |
 | fisico/mobile3g | ✅ | ✅ CDMA in multiplexing | ❌ | ✅ |
 | datalink/framing | ✅ | ✅ | ✅ | ✅ |
-| datalink/codicidicorrezione | ✅ | ❌ | ✅ | ✅ |
+| datalink/codicidicorrezione | ✅non finito in classe| ❌ | ✅ | ✅ |
 | fisico/intro | ✅ | ✅ | ✅ | ✅ |
 | fisico/wired | ✅ | ✅ | ✅ | ✅ | 
 | fisico/wireless | ✅ | ✅ | ✅ | ✅ |
