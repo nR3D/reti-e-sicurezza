@@ -21,12 +21,12 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | fisico/xDSL | ✅ | ✅ | ✅ | ✅ |
 | fisico/retetelegrafica | ✅ | ✅ | ❌ | ✅ |
 | fisico/mobile4g5g | ✅ | ✅ | ❌ | ✅ |
-| fisico/mobile2g | ✅ | ✅ | ❌ | ✅ |
+| fisico/mobile2g | ✅ | ✅ | Stefano | ✅ |
 | fisico/satellitivsfibra | ✅ | ✅ | ❌ | ✅ |
 | fisico/capacitatrasmissione | ✅ | ✅ | ✅ | ✅ |
 | fisico/attenuazione | ✅ | ✅ | ✅ | ✅ |
 | fisico/dispersione | ✅ | ✅ | ✅ | ✅ |
-| fisico/satelliti | ✅ | ✅ | Stefano | ✅ |
+| fisico/satelliti | ✅ | ✅ | ✅  | ✅ |
 | fisico/mobile3g | ✅ | ✅ CDMA in multiplexing | ❌ | ✅ |
 | datalink/framing | ✅ | ✅ | ✅ | ✅ |
 | datalink/codicidicorrezione | ✅non finito in classe| ❌ | ✅ | ✅ |
