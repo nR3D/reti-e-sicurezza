@@ -25,7 +25,7 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | fisico/satellitivsfibra | ✅ | ✅ | ❌ | ✅ |
 | fisico/capacitatrasmissione | ✅ | ✅ | ❌ | ✅ |
 | fisico/attenuazione | ✅ | ✅ | ❌ | ✅ |
-| fisico/dispersione | ✅ | ✅ | Davide | ✅ |
+| fisico/dispersione | ✅ | ✅ | ✅ | ✅ |
 | fisico/satelliti | ✅ | ✅ | Stefano | ✅ |
 | fisico/mobile3g | ✅ | ✅ CDMA in multiplexing | ❌ | ✅ |
 | datalink/framing | ✅ | ✅ | ✅ | ✅ |
