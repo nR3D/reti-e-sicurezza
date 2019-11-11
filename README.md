@@ -24,7 +24,7 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | fisico/mobile2g | ✅ | ✅ | ❌ | ✅ |
 | fisico/satellitivsfibra | ✅ | ✅ | ❌ | ✅ |
 | fisico/capacitatrasmissione | ✅ | ✅ | ❌ | ✅ |
-| fisico/attenuazione | ✅ | ✅ | ❌ | ✅ |
+| fisico/attenuazione | ✅ | ✅ | ✅ | ✅ |
 | fisico/dispersione | ✅ | ✅ | ✅ | ✅ |
 | fisico/satelliti | ✅ | ✅ | Stefano | ✅ |
 | fisico/mobile3g | ✅ | ✅ CDMA in multiplexing | ❌ | ✅ |
