@@ -29,7 +29,7 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | fisico/satelliti | ✅ | ✅ | ✅  | ✅ |
 | fisico/mobile3g | Michele-CDMA | ❌ CDMA | ✅ | ✅ |
 | datalink/framing | ✅ | ✅ | ✅ | ✅ |
-| datalink/codicidicorrezione | ✅non finito in classe| ❌ | ✅ | ✅ |
+| datalink/codicidicorrezione | ❌non finito in classe| ❌ | ✅ | ✅ |
 | fisico/intro | ✅ | ✅ | ✅ | ✅ |
 | fisico/wired | ✅ | ✅ | ✅ | ✅ |
 | fisico/wireless | ✅ | ✅ | ✅ | ✅ |
