@@ -15,8 +15,8 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | Argomento | Trascritto | Integr. libro | Italiano | Formattazione |
 | :-- | :-: | :-: | :-: | :-: |
 | datalink/codicirilevaerrori | ❌ | ❌ | ❌ | ❌ |
-| fisico/trasformatafourier | ✅ | ✅ | ❌ | ✅ |
-| fisico/mobile0g | ✅ | ✅ | ❌ | ✅ |
+| fisico/trasformatafourier | ✅ | ❌ | ❌ | ✅ |
+| fisico/mobile0g | ✅ | ✅ | Michele | ✅ |
 | fisico/retetelefonicaemodem | ✅ | ✅ | ❌ | ✅ |
 | fisico/xDSL | ✅ | ✅ | ✅ | ✅ |
 | fisico/retetelegrafica | ✅ | ✅ | ✅ | ✅ |
