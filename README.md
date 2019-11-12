@@ -27,7 +27,7 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | fisico/attenuazione | ✅ | ✅ | ✅ | ✅ |
 | fisico/dispersione | ✅ | ✅ | ✅ | ✅ |
 | fisico/satelliti | ✅ | ✅ | ✅  | ✅ |
-| fisico/mobile3g | Michele-CDMA | ❌ CDMA | ✅ | ✅ |
+| fisico/mobile3g | ✅ | ❌ CDMA | ❌ CDMA | ✅ |
 | datalink/framing | ✅ | ✅ | ✅ | ✅ |
 | datalink/codicidicorrezione | ❌non finito in classe| ❌ | ✅ | ✅ |
 | fisico/intro | ✅ | ✅ | ✅ | ✅ |
