@@ -14,20 +14,20 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | Argomento | Trascritto | Integr. libro | Italiano | Formattazione |
 | :-- | :-: | :-: | :-: | :-: |
 | datalink/codicirilevaerrori | ❌ | ❌ | ❌ | ❌ |
-| fisico/multiplexing | ❌ | ❌ | ❌ | ❌ |
+| fisico/multiplexing | CDMA in 3g - mancano appunti | ❌ | ❌ | ❌ |
 | fisico/trasformatafourier | ✅ | ✅ | ❌ | ✅ |
 | fisico/mobile0g | ✅ | ✅ | ❌ | ✅ |
 | fisico/retetelefonicaemodem | ✅ | ✅ | ❌ | ✅ |
 | fisico/xDSL | ✅ | ✅ | ✅ | ✅ |
 | fisico/retetelegrafica | ✅ | ✅ | ✅ | ✅ |
-| fisico/mobile4g5g | ✅ | ✅ | Michele | ✅ |
+| fisico/mobile4g5g | ✅ | ✅ | ✅ | ✅ |
 | fisico/mobile2g | ✅ | ✅ | Stefano | ✅ |
 | fisico/satellitivsfibra | ✅ | ✅ | ✅ | ✅ |
 | fisico/capacitatrasmissione | ✅ | ✅ | ✅ | ✅ |
 | fisico/attenuazione | ✅ | ✅ | ✅ | ✅ |
 | fisico/dispersione | ✅ | ✅ | ✅ | ✅ |
 | fisico/satelliti | ✅ | ✅ | ✅  | ✅ |
-| fisico/mobile3g | ✅ | ✅ CDMA in multiplexing | Michele | ✅ |
+| fisico/mobile3g | Michele-CDMA | ❌ CDMA | ✅ | ✅ |
 | datalink/framing | ✅ | ✅ | ✅ | ✅ |
 | datalink/codicidicorrezione | ✅non finito in classe| ❌ | ✅ | ✅ |
 | fisico/intro | ✅ | ✅ | ✅ | ✅ |
