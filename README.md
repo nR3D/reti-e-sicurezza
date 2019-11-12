@@ -20,14 +20,14 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | fisico/retetelefonicaemodem | ✅ | ✅ | ❌ | ✅ |
 | fisico/xDSL | ✅ | ✅ | ✅ | ✅ |
 | fisico/retetelegrafica | ✅ | ✅ | ✅ | ✅ |
-| fisico/mobile4g5g | ✅ | ✅ | ❌ | ✅ |
+| fisico/mobile4g5g | ✅ | ✅ | Michele | ✅ |
 | fisico/mobile2g | ✅ | ✅ | Stefano | ✅ |
-| fisico/satellitivsfibra | ✅ | ✅ | Michele | ✅ |
+| fisico/satellitivsfibra | ✅ | ✅ | ✅ | ✅ |
 | fisico/capacitatrasmissione | ✅ | ✅ | ✅ | ✅ |
 | fisico/attenuazione | ✅ | ✅ | ✅ | ✅ |
 | fisico/dispersione | ✅ | ✅ | ✅ | ✅ |
 | fisico/satelliti | ✅ | ✅ | ✅  | ✅ |
-| fisico/mobile3g | ✅ | ✅ CDMA in multiplexing | ❌ | ✅ |
+| fisico/mobile3g | ✅ | ✅ CDMA in multiplexing | Michele | ✅ |
 | datalink/framing | ✅ | ✅ | ✅ | ✅ |
 | datalink/codicidicorrezione | ✅non finito in classe| ❌ | ✅ | ✅ |
 | fisico/intro | ✅ | ✅ | ✅ | ✅ |
