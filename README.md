@@ -10,11 +10,11 @@ Prima di lavorare su gli appunti, fare un push del README scrivendo il nome  nel
 Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 
 ## Pipeline appunti:
+**NB: le tecniche di multiplexing sono contenute in xDSL, tranne il CDMA che viene inserito nel 3g, visto che non è usato CDMA nelle DSL**
 
 | Argomento | Trascritto | Integr. libro | Italiano | Formattazione |
 | :-- | :-: | :-: | :-: | :-: |
 | datalink/codicirilevaerrori | ❌ | ❌ | ❌ | ❌ |
-| fisico/multiplexing | CDMA in 3g - mancano appunti | ❌ | ❌ | ❌ |
 | fisico/trasformatafourier | ✅ | ✅ | ❌ | ✅ |
 | fisico/mobile0g | ✅ | ✅ | ❌ | ✅ |
 | fisico/retetelefonicaemodem | ✅ | ✅ | ❌ | ✅ |
