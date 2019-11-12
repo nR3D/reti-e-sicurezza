@@ -19,10 +19,10 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | fisico/mobile0g | ✅ | ✅ | ❌ | ✅ |
 | fisico/retetelefonicaemodem | ✅ | ✅ | ❌ | ✅ |
 | fisico/xDSL | ✅ | ✅ | ✅ | ✅ |
-| fisico/retetelegrafica | ✅ | ✅ | ❌ | ✅ |
+| fisico/retetelegrafica | ✅ | ✅ | ✅ | ✅ |
 | fisico/mobile4g5g | ✅ | ✅ | ❌ | ✅ |
 | fisico/mobile2g | ✅ | ✅ | Stefano | ✅ |
-| fisico/satellitivsfibra | ✅ | ✅ | ❌ | ✅ |
+| fisico/satellitivsfibra | ✅ | ✅ | Michele | ✅ |
 | fisico/capacitatrasmissione | ✅ | ✅ | ✅ | ✅ |
 | fisico/attenuazione | ✅ | ✅ | ✅ | ✅ |
 | fisico/dispersione | ✅ | ✅ | ✅ | ✅ |
