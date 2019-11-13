@@ -17,7 +17,7 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | datalink/codicirilevaerrori | ❌ | ❌ | ❌ | ❌ |
 | fisico/trasformatafourier | ✅ | ❌ | ❌ | ✅ |
 | fisico/mobile0g | ✅ | ✅ | ✅ | ✅ |
-| fisico/retetelefonicaemodem | ✅ | ✅ | ❌ | ✅ |
+| fisico/retetelefonicaemodem | ✅ | ✅ | Michele | ✅ |
 | fisico/xDSL | ✅ | ✅ | ✅ | ✅ |
 | fisico/retetelegrafica | ✅ | ✅ | ✅ | ✅ |
 | fisico/mobile4g5g | ✅ | ✅ | ✅ | ✅ |
@@ -27,7 +27,7 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | fisico/attenuazione | ✅ | ✅ | ✅ | ✅ |
 | fisico/dispersione | ✅ | ✅ | ✅ | ✅ |
 | fisico/satelliti | ✅ | ✅ | ✅  | ✅ |
-| fisico/mobile3g | ✅ | ❌ CDMA | ❌ CDMA | ✅ |
+| fisico/mobile3g | ✅ | Michele | Michele | ✅ |
 | datalink/framing | ✅ | ✅ | ✅ | ✅ |
 | datalink/codicidicorrezione | ❌non finito in classe| ❌ | ✅ | ✅ |
 | fisico/intro | ✅ | ✅ | ✅ | ✅ |
