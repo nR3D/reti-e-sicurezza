@@ -28,7 +28,7 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | satelliti | ✅ | ✅ | ✅  | ✅ |
 | satellitivsfibra | ✅ | ✅ | ✅ | ✅ |
 | capacitatrasmissione | ✅ | ✅ | ✅ | ✅ |
-| trasformatafourier | ✅ | ❌ | ❌ | ✅ |
+| trasformatafourier | ✅ | ✅ | ✅ | ✅ |
 | attenuazione | ✅ | ✅ | ✅ | ✅ |
 | dispersione | ✅ | ✅ | ✅ | ✅ |
 | retetelegrafica | ✅ | ✅ | ✅ | ✅ |
