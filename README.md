@@ -36,7 +36,7 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | xDSL | ✅ | ✅ | ✅ | ✅ |
 | mobile0g | ✅ | ✅ | ✅ | ✅ |
 | mobile1g | ✅ | ✅ | ✅ | ✅ |
-| mobile2g | ✅ | ✅ | Stefano | ✅ |
+| mobile2g | ✅ | ✅ | ✅ | ✅ |
 | mobile3g | ✅ | ✅ | ✅ | ✅ |
 | mobile4g5g | ✅ | ✅ | ✅ | ✅ |
 
