@@ -32,7 +32,7 @@ Sono presenti diverse architetture di rete, un esempio è il modello 
 I livelli del modello OSI:
 1. **Physical**: si occupa di trasmettere e ricevere i bit attraverso un canale di comunicazione fisico.
 2. **Data-Link**: Incapsula le unita di informazione ed identifica/corregge eventuali errori di trasmissione.
-3. **Network**: controlla le operazioni della rete, dicendo quali percorsi utilizzare per la trasmissione dei dati (routing), tenendo conto di eventuali congestioni.
+3. **Network**: controlla le operazioni della rete, dicendo quali percorsi utilizzare per la trasmissione dei dati (routing), tenendo conto di eventuali congestioni.<br>
 4. **Transport**: fornisce il trasferimento dati tra processi, assicurandosi che le comunicazioni tra i layer più alti avvengano correttamente.
 5. **Session**: fornisce e mantiene le sessioni di comunicazione con una o più macchine.
 6. **Presentation**: si assicura che i dati siano rappresentati nel formato opportuno.
