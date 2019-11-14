@@ -3,36 +3,48 @@
 ### UNIPD 2019
 
 ## Per contribuire:
-Trascrivere gli appunti preferibilmente in formato markdown (.md), in caso sia stato già trascritto il un file .txt allora sarà necessario convertirlo in formato .md ed eliminare la copia .txt una volta ultimata la conversione.
+Trascrivere gli appunti preferibilmente in formato markdown (.md), in caso la lezione sia statra già trascritta in un file .txt allora sarà necessario convertirla in formato .md ed eliminare la copia .txt una volta ultimata la conversione.
 
-Prima di lavorare su gli appunti, fare un push del README scrivendo il nome  nella casella dove lavorerete, antiridondanza.
+Prima di lavorare sugli appunti, fare un push del README scrivendo il nome  nella casella dove lavorerete, antiridondanza.
 
 Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 
-## Pipeline appunti:
-**NB: le tecniche di multiplexing sono contenute in xDSL, tranne il CDMA che viene inserito nel 3g, visto che non è usato CDMA nelle DSL**
+### Datalink
 
 | Argomento | Trascritto | Integr. libro | Italiano | Formattazione |
 | :-- | :-: | :-: | :-: | :-: |
-| datalink/codicirilevaerrori | ❌ | ❌ | ❌ | ❌ |
-| fisico/trasformatafourier | ✅ | ❌ | ❌ | ✅ |
-| fisico/mobile0g | ✅ | ✅ | ✅ | ✅ |
-| fisico/retetelefonicaemodem | ✅ | ✅ | ❌ | ✅ |
-| fisico/xDSL | ✅ | ✅ | ✅ | ✅ |
-| fisico/retetelegrafica | ✅ | ✅ | ✅ | ✅ |
-| fisico/mobile4g5g | ✅ | ✅ | ✅ | ✅ |
-| fisico/mobile2g | ✅ | ✅ | Stefano | ✅ |
-| fisico/satellitivsfibra | ✅ | ✅ | ✅ | ✅ |
-| fisico/capacitatrasmissione | ✅ | ✅ | ✅ | ✅ |
-| fisico/attenuazione | ✅ | ✅ | ✅ | ✅ |
-| fisico/dispersione | ✅ | ✅ | ✅ | ✅ |
-| fisico/satelliti | ✅ | ✅ | ✅  | ✅ |
-| fisico/mobile3g | ✅ | ✅ | ✅ | ✅ |
-| datalink/framing | ✅ | ✅ | ✅ | ✅ |
-| datalink/codicidicorrezione | ❌non finito in classe| ❌ | ✅ | ✅ |
-| fisico/intro | ✅ | ✅ | ✅ | ✅ |
-| fisico/wired | ✅ | ✅ | ✅ | ✅ |
-| fisico/wireless | ✅ | ✅ | ✅ | ✅ |
-| datalink/intro | ✅ | ✅ | ✅ | ✅ |
 | intro | ✅ | ✅ | ✅ | ✅ |
-| fisico/mobile1g | ✅ | ✅ | ✅ | ✅ |
+| framing | ✅ | ✅ | ✅ | ✅ |
+| codicirilevaerrori | ❌ | ❌ | ❌ | ❌ |
+| codicidicorrezione | ❌non finito in classe| ❌ | ✅ | ✅ |
+
+### Fisico
+
+| Argomento | Trascritto | Integr. libro | Italiano | Formattazione |
+| :-- | :-: | :-: | :-: | :-: |
+| intro | ✅ | ✅ | ✅ | ✅ |
+| wired | ✅ | ✅ | ✅ | ✅ |
+| wireless | ✅ | ✅ | ✅ | ✅ |
+| satelliti | ✅ | ✅ | ✅  | ✅ |
+| satellitivsfibra | ✅ | ✅ | ✅ | ✅ |
+| capacitatrasmissione | ✅ | ✅ | ✅ | ✅ |
+| trasformatafourier | ✅ | ✅ | ✅ | ✅ |
+| attenuazione | ✅ | ✅ | ✅ | ✅ |
+| dispersione | ✅ | ✅ | ✅ | ✅ |
+| retetelegrafica | ✅ | ✅ | ✅ | ✅ |
+| retetelefonicaemodem | ✅ | ✅ | ✅ | ✅ |
+| xDSL | ✅ | ✅ | ✅ | ✅ |
+| mobile0g | ✅ | ✅ | ✅ | ✅ |
+| mobile1g | ✅ | ✅ | ✅ | ✅ |
+| mobile2g | ✅ | ✅ | ✅ | ✅ |
+| mobile3g | ✅ | ✅ | ✅ | ✅ |
+| mobile4g5g | ✅ | ✅ | ✅ | ✅ |
+
+> NB: le tecniche di multiplexing sono contenute in xDSL, tranne il CDMA che viene inserito nel 3g, visto che non è usato CDMA nelle DSL
+
+### Altro
+
+| Argomento | Trascritto | Integr. libro | Italiano | Formattazione |
+| :-- | :-: | :-: | :-: | :-: |
+| intro | ✅ | ✅ | ✅ | ✅ |
+
