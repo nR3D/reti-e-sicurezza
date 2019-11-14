@@ -32,7 +32,7 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | attenuazione | ✅ | ✅ | ✅ | ✅ |
 | dispersione | ✅ | ✅ | ✅ | ✅ |
 | retetelegrafica | ✅ | ✅ | ✅ | ✅ |
-| retetelefonicaemodem | ✅ | ✅ | ❌ | ✅ |
+| retetelefonicaemodem | ✅ | ✅ | Stefano | ✅ |
 | xDSL | ✅ | ✅ | ✅ | ✅ |
 | mobile0g | ✅ | ✅ | ✅ | ✅ |
 | mobile1g | ✅ | ✅ | ✅ | ✅ |
