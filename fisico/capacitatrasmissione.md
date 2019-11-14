@@ -20,7 +20,7 @@ Bisogna considerare la potenza del rumore R.
 
 ### Teorema di Shannon
 Generalizzazione del teorema di Nyquist considerando il rumore R.
-max_data_rate = _B*log(2) (1+S/N)_
+max\_data\_rate = _B*log(2) (1+S/N)_
 dove S/N è il rapporto tra la potenza del segnale S e la potenza del rumore del canale R, che dipende dalla qualità del mezzo.
 Si indica in decibel -> 10*log(10) S/N = SNR.
 Nel caso ottimo, con alto S/N, il massimo data rate è (B/3)*SNR.
