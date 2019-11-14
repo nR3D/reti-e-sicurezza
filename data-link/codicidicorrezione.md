@@ -79,7 +79,44 @@ quindi è un codice Hamming (3,1,3)
 Nella realtà le interferenze si presentano sotto forma di burst: gli errori accadono su più bit consecutivi.
 È un problema mostruoso per l'error correcting che può funzionare solo su pochi bit per messaggio.
 Per ovviare ai burst si usa il metodo della matrice invertita (interleaving): dividiamo il blocco dati in blocchetti con bit di parità  propri e li impiliamo. Trasmettendo i messaggi per colonne (prima il primo bit di tutti i pacchetti poi il secondo, ecc.) distribuiamo un burst su pochi bit per ogni blocchetto, rendendolo correggibile dai codici di Hamming, un piccolo prezzo da pagare è un buffer dati.
- 
+
+#DA TRADURRE e integrare
+-----------
+
+##Codici di livello 2:
+----------------------
+I codici di livello due non prendono piu` come unita` il singolo bit ma gruppi, questo permette di correggere errori molto piu` grandi.
+Ad esempio  i cd supportano un burst fino a 4000bit senza dover usare usare il trucco della matrice invertita. In oltre hanno una feature aggiuntiva: 
+riuscire a correggere le erasures, ovvero le mancanze di informazione. Sono piu` facili da correggere di un errore perche` individui la posizione subito: non valgono ne 0 ne 1;
+I codici di secondo livello Reed-Salomon RS(x,y) correggono fino a x-y erasures, il doppio degli errori.
+Oltretutto riescono a correggere contemporaneamente errori ed erasures basta che sia verificata la disequazione:
+2nErrori + nErasures < X-Y
+Sono usati nei CD,DVD,ADSL,BLU RAY, WiMax e nella TV Digitale si usa RS(204,188), datarate 92% e 16bit di correzione.
+Nell'ambiente aero-spaziale si utilizza il codice di Hadamard che interpreta il rumore come una delle componenti della comunicazione CDMA e lo ignora;
+
+### Limiti: Error Rate vs Data Rate
+
+- Repetition b: 
+Aumentando n ottengo un error rate molto basso ma altrettando basso diventa il datarate (1/n)
+
+- codici Hamming:
+Perdono meno banda dei Rn ma la decrescita è simile, aggiungendo bit di controllo il data rate cala a picco.
+
+Shannon dimostrò che per l'error-rate che tende a zero il limite massimo del datarate non tende a zero ma a un numero maggiore di zero:
+e` possibile sviluppare un codice che sta leggeremente sopra il 50% della banda.
+La dimostrazione diche che dato un certo tasso d'errore x si può arrivare a un datarate massimo che è pari all'entropia del canale usato.
+es dischi con tasso di errore 0.1 vogliamo un tasso di errore 10^-15, usando le tecnologie classiche in stile Hamming servono 60 dischi, Shannon dimostra che ne bastano due.
+
+Esistondo dei codici che si avvicinano molto al limite come LDPC(low density parity check) usato da tv Digitale e wimax
+Faccio il controllo di parità sul messaggio,  e metto in comunicazione i bit di parità con un grafo con cui possono scambiarsi informazione, e` sempre un codice lineare: basta una matrice per fare il check ma il decoding dei dati è NP-completo, ovvero ha alta complessità computazionale.
+
+
+####CRC: codici a ridondanza ciclica
+Sono basati sull'arimtetica polinomiale in modulo 2 e in grado di rilevare gli errori ma non di correggerli.
+Possiamo vedere un numero binario come i coefficenti di un polinomio in GF(2)[] (spazio dei polinomi in modulo 2)
+Sommare in modulo 2 è come fare lo xor, in più addizione e sottrazione  sono la stessa cosa.
+I bit di parità sono dati dal resto della divisione R(x) tra i polinomi messaggio M(x) e generatore detto G(x), l'encoding del messaggio è M(x) concatenato a R(x)
+
 
 Storielle di Marc:
 Hamming viveva nel periodo delle schede perforate, si chiede c'è un modo di usare poche schede e avere una correzione dell'errore? yess l'ha inventata lui.
