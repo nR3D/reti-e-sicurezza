@@ -48,7 +48,7 @@ Gli standard più veloci a questo punto risultarono essere quelli asimmetrici, d
 - V. 90 (1998): 56 kbps in downstream e 33.6 kbps in upstream
 - V. 92 (1999): 56 kbps in downstream e 48 kbps in upstream
 
-Contemporaneamente a questo periodo nascevano i primi standard per i fax. I primi fax nascono nel XIX secolo come overlay del sistema telefonico, ma diventati popolari solo nel secolo successivo per la necessità delle comunicazioni asiatiche di trasmettere ideogrammi come immagini. Successivamente il fax si è evoluto come overlay della linea telefonica. In un fax moderno è possibile selezionare la risoluzione delle immagini da inviare (da un minimo di 100*100 dpi fino ad un massimo di 400*400 dpi per: fax di gruppo 3).
+Contemporaneamente a questo periodo nascevano i primi standard per i fax. I primi fax nascono nel XIX secolo come overlay del sistema telefonico, ma diventati popolari solo nel secolo successivo per la necessità delle comunicazioni asiatiche di trasmettere ideogrammi come immagini. Successivamente il fax si è evoluto come overlay della linea telefonica. In un fax moderno è possibile selezionare la risoluzione delle immagini da inviare (da un minimo di 100\*100 dpi fino ad un massimo di 400\*400 dpi per: fax di gruppo 3).
 Standard modulazione fax:
 - V. 27 (1988): 4.8 kbps, PSK
 - V. 29 (1988): 9.6 kbps, QAM
