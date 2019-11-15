@@ -22,23 +22,23 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 
 | Argomento | Trascritto | Integr. libro | Italiano | Formattazione |
 | :-- | :-: | :-: | :-: | :-: |
-| intro | ✅ | ✅ | ✅ | ✅ |
-| wired | ✅ | ✅ | ✅ | ✅ |
-| wireless | ✅ | ✅ | ✅ | ✅ |
-| satelliti | ✅ | ✅ | ✅  | ✅ |
-| satellitivsfibra | ✅ | ✅ | ✅ | ✅ |
-| capacitatrasmissione | ✅ | ✅ | ✅ | ✅ |
-| trasformatafourier | ✅ | ✅ | ✅ | ✅ |
-| attenuazione | ✅ | ✅ | ✅ | ✅ |
-| dispersione | ✅ | ✅ | ✅ | ✅ |
-| retetelegrafica | ✅ | ✅ | ✅ | ✅ |
-| retetelefonicaemodem | ✅ | ✅ | ✅ | ✅ |
-| xDSL | ✅ | ✅ | ✅ | ✅ |
-| mobile0g | ✅ | ✅ | ✅ | ✅ |
-| mobile1g | ✅ | ✅ | ✅ | ✅ |
-| mobile2g | ✅ | ✅ | ✅ | ✅ |
-| mobile3g | ✅ | ✅ | ✅ | ✅ |
-| mobile4g5g | ✅ | ✅ | ✅ | ✅ |
+| intro | ✅ | ✅ | Stefano | ✅ |
+| wired | ✅ | ✅ | Stefano | ✅ |
+| wireless | ✅ | ✅ | Stefano | ✅ |
+| satelliti | ✅ | ✅ | Stefano  | ✅ |
+| satellitivsfibra | ✅ | ✅ | Stefano | ✅ |
+| capacitatrasmissione | ✅ | ✅ | Stefano | ✅ |
+| trasformatafourier | ✅ | ✅ | Stefano | ✅ |
+| attenuazione | ✅ | ✅ | Stefano | ✅ |
+| dispersione | ✅ | ✅ | Stefano | ✅ |
+| retetelegrafica | ✅ | ✅ | Stefano | ✅ |
+| retetelefonicaemodem | ✅ | ✅ | Stefano | ✅ |
+| xDSL | ✅ | ✅ | Stefano | ✅ |
+| mobile0g | ✅ | ✅ | Stefano | ✅ |
+| mobile1g | ✅ | ✅ | Stefano | ✅ |
+| mobile2g | ✅ | ✅ | Stefano | ✅ |
+| mobile3g | ✅ | ✅ | Stefano | ✅ |
+| mobile4g5g | ✅ | ✅ | Stefano | ✅ |
 
 > NB: le tecniche di multiplexing sono contenute in xDSL, tranne il CDMA che viene inserito nel 3g, visto che non è usato CDMA nelle DSL
 
@@ -47,4 +47,3 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | Argomento | Trascritto | Integr. libro | Italiano | Formattazione |
 | :-- | :-: | :-: | :-: | :-: |
 | intro | ✅ | ✅ | ✅ | ✅ |
-
