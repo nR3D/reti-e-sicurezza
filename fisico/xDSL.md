@@ -8,7 +8,7 @@ Un'altra soluzione è l'utilizzo del telefono con tecnologia DECT che permette d
 
 Uno dei requisiti della rete digitale risulta è quello del multiplexing, cioè avere più canali di comunicazione in un unica rete. Una delle soluzioni migliori è quella di utilizzare l'FDM (Frequency Division Multiplexing), cioè dividere i canali su varie porzioni distinte della banda.
 La DSL più utilizzata è l'ADSL (Asymmetric DSL), assimmetrica perchè si da più banda al download che all'upload. Nell'ADSL vi è un  range di frequenze tra 4KHz e 25KHz inutilizzato, per prevenire interferenze tra linea telefonica e linea internet. Upload e download Si sono ulteriormente divise in 256 canali da 4312.5Hz, limitando i disturbi su una certe frequenze solo ai canali che le contengono .<br>
-E' stata presa come riferimento la stessa banda di una connessione telefonica (4312.5Hz) per poter utilizzare le tecnologie già esistenti e ben collaudate.
+È stata presa come riferimento la stessa banda di una connessione telefonica (4312.5Hz) per poter utilizzare le tecnologie già esistenti e ben collaudate.
 Standard ADSL:<br>
 - ADSL Lite: 1.5 Mbps download, 0.5 Mbps upload<br>
 - ADSL: 8 Mbps download, 1 Mbps upload<br>
@@ -18,7 +18,7 @@ Standard ADSL:<br>
 - ADSL2+(annex M): 28 Mbps download, 3.5 Mbps upload<br>
 
 Le ADSL2+ utilizzano una banda doppia di 2.2 MHz anzichè 1.1 MHz, che però necessita di una linea particolarmente buona. Le ADSL 2 e 2+ supportano anche varianti "all-digital" in cui si rinuncia alla parte voce per guadagnare 256 Kbps in upstream.
-Il limite di 28 Mbps dell'ADSL risulta però ancora limitativo, sopratutto a seguito dell'aumento dello streaming video avvenuto negli ultimi decenni. E' nato perciò un nuovo standard basato sulla crescente diffusione della fibra, che permette l'utilizzo di frequenze sempre più alte: la VDSL (Very Hight Speed DSL, o informalmente detta anche Video DSL perchè spinta dalla necessità dello streaming video).<br>
+Il limite di 28 Mbps dell'ADSL risulta però ancora limitativo, sopratutto a seguito dell'aumento dello streaming video avvenuto negli ultimi decenni. È nato perciò un nuovo standard basato sulla crescente diffusione della fibra, che permette l'utilizzo di frequenze sempre più alte: la VDSL (Very Hight Speed DSL, o informalmente detta anche Video DSL perchè spinta dalla necessità dello streaming video).<br>
 Tipologie VDSL:<br>
 - VDSL(2001): QAM, 55 Mbps download, 3 Mbps upload<br>
 - VDSL2(2006): FDM, 200 Mbps download, 100 Mbps upload<br>

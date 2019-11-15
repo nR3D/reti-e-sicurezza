@@ -1,5 +1,5 @@
 ## Rete Telefonica
-Il sistema telefonico fu la seconda piu' grande rete mai creata, inizialmente sviluppata come overlay della grande rete telegrafica.
+Il sistema telefonico fu la seconda più grande rete mai creata, inizialmente sviluppata come overlay della grande rete telegrafica.
 All'inizio del 1876 una linea telefonica (point-to-point) era composta da una coppia di telefoni, direttamente collegati tra loro. Risultò subito chiaro che non era possibile avere una connessione fisica tra tutti i telefoni presenti (relazione quadratica tra telefoni e connessioni necessarie).
 Nel 1878 ci fu il passaggio agli switching center (centralini telefonici) che avevano il compito di creare la linea tra due telefoni connettendo fisicamente il cavo del chiamante con quello del ricevente.
 Col diffondersi dei telefoni, i centralini iniziarono però ad avere troppe connessioni da gestire, e si decise dunque di creare dei centralini di secondo livello che avevano il compito di connettere tra loro quelli di primo livello.
