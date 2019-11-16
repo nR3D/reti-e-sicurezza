@@ -115,8 +115,49 @@ Faccio il controllo di parità sul messaggio,  e metto in comunicazione i bit di
 Sono basati sull'arimtetica polinomiale in modulo 2 e in grado di rilevare gli errori ma non di correggerli.
 Possiamo vedere un numero binario come i coefficenti di un polinomio in GF(2)[] (spazio dei polinomi in modulo 2)
 Sommare in modulo 2 è come fare lo xor, in più addizione e sottrazione  sono la stessa cosa.
-I bit di parità sono dati dal resto della divisione R(x) tra i polinomi messaggio M(x) e generatore detto G(x), l'encoding del messaggio è M(x) concatenato a R(x)
+- Encoding:
+I bit di parità sono dati dal resto della divisione R(x) tra i polinomi messaggio M(x) e generatore detto G(x)
+Il messaggio T(x) è M(x) concatenato a R(x). Scegliamo un polinomio G(x) qualunque, Se deg(G(x))>deg(M(x)) allora R(x) = M(x) e T(x) sarebbe M(x) due volte di fila, che è equivalente al  repetition 2.
+Per risolvere questo problema prima di dividere moltiplichiamo M(x) per x^(deg(G(x)), che equivale a shiftarlo a sinistra di deg(G(x)), così il resto della divisione con G(X) rappresenterà sempre un informazione migliore di Repetition 2. N.B. M(x) è trasmesso non shiftato
+- Decoding: 
+Banale, basta togliere i bit di parità facendo lo shift a destra di deg(G(X)).
+- Error Detection:
+Il messaggio ricevuto T(x) può essere visto come x^deg(G(x)) \* M(x) + R(x)
+ma siccome in  GF(2)[] somma e sottrazione sono la stessa cosa allora il messaggio x^deg(G(x)) \* M(x) - R(x),
+sottraendo il resto ottengo un multiplo di G(X) e quindi se faccio la divisione tra messaggio ricevuto e G(x) il resto dovrà essere zero.
 
+Qual'è la potenza di questo metodo:
+Un errore sono dei bit flippati, in GF(2)[] possiamo interpretarlo come un polinomio E(x) e sommato al nostro messaggio (T(x)). Quindi ciò che arriva al ricevente è T(x) + E(x) allora il calcolo dell'errore diventa (T(x) + E(x)) mod G(x), sappiamo che T(x) mod G(x) = 0 e quindi (T(x) + E(x))mod G(x) == E(x)mod G(x) quindi l'errore non viene identificato se e solo se E(x) è divisibile per G(x).
+L'idea è quella di scegliere un polinomio generatore che minimizza le possibilità di aveare un falso positivo.
+- Singolo errore: E(x) = x^i 
+Se G(x) ha due o più membri allora E(x) non potrà mai essere suo multiplo e il resto non sarà zero.
+
+- Doppio errore: E(x) = x^i + x^j = x^j \* (x^(i-j) + 1)
+Se G(x) non è divisibile per questi due fattori allora individuerò tutti gli errori.
+
+Prendo un G(x) con (x+1) come fattore:
+
+G(x) = (x+1) * tot
+E(x) = G(x) * tot 2 <- caso in cui si perde
+     = (x+1) * tot * tot2
+
+E(1) = (1+1) * tot(1) * tot2(1) => 0
+=> vince in tutti i casi in cui c'è un numero dispari di 1
+
+- I burst error: E(x)= x^i(x^j+x^j-1+ ...+x+1)
+
+se deg G(x) > j li becco perchè non il resto non potra mai essere zero 
+
+in generale  +1 è una buona scelta
+oltre possiamo moltiplicare polinomi con certe proprietà per combinarle
+
+oppure scegliere polinomi irriducibili "primi" 
+
+la sua potenza aumenta in maniera esponenziale rispetto al grado
+non becchiamo il burst di lunghezza più lunga di j con probabilià di 1/2^deg(G(x)), La probablitaà che i bit del burst siano uguali a G(X)
+
+
+-----------------------------------------------
 
 Storielle di Marc:
 Hamming viveva nel periodo delle schede perforate, si chiede c'è un modo di usare poche schede e avere una correzione dell'errore? yess l'ha inventata lui.
