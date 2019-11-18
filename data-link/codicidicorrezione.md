@@ -80,10 +80,10 @@ Nella realtà le interferenze si presentano sotto forma di burst: gli errori acc
 È un problema mostruoso per l'error correcting che può funzionare solo su pochi bit per messaggio.
 Per ovviare ai burst si usa il metodo della matrice invertita (interleaving): dividiamo il blocco dati in blocchetti con bit di parità  propri e li impiliamo. Trasmettendo i messaggi per colonne (prima il primo bit di tutti i pacchetti poi il secondo, ecc.) distribuiamo un burst su pochi bit per ogni blocchetto, rendendolo correggibile dai codici di Hamming, un piccolo prezzo da pagare è un buffer dati.
 
-#DA TRADURRE e integrare
+# DA TRADURRE e integrare
 -----------
 
-##Codici di livello 2:
+## Codici di livello 2:
 ----------------------
 I codici di livello due non prendono piu` come unita` il singolo bit ma gruppi, questo permette di correggere errori molto piu` grandi.
 Ad esempio  i cd supportano un burst fino a 4000bit senza dover usare usare il trucco della matrice invertita. In oltre hanno una feature aggiuntiva: 
@@ -133,28 +133,27 @@ L'idea è quella di scegliere un polinomio generatore che minimizza le possibili
 Se G(x) ha due o più membri allora E(x) non potrà mai essere suo multiplo e il resto non sarà zero.
 
 - Doppio errore: E(x) = x^i + x^j = x^j \* (x^(i-j) + 1)
-Se G(x) non è divisibile per questi due fattori allora individuerò tutti gli errori.
+Se G(x) non è divisibile per questi due fattori allora il resto sarà sempre diverso da zero, individuando il doppioerrore.
 
-Prendo un G(x) con (x+1) come fattore:
+- Numero di errori dispari:
+Prendo G(x) con (x+1) come fattore:
+Dati due polinomi generici tot(x) e tot2(x)
 
-G(x) = (x+1) * tot
-E(x) = G(x) * tot 2 <- caso in cui si perde
-     = (x+1) * tot * tot2
+G(x) = (x+1) * tot(x)
+E(x) = G(x)  * tot2(x) <- caso in cui si perde
+     = (x+1) * tot(x) * tot2(x) 
+##### DA CHIEDERE
 
-E(1) = (1+1) * tot(1) * tot2(1) => 0
+E(1) = (1+1) * tot(1) * tot2(1) = 0;
 => vince in tutti i casi in cui c'è un numero dispari di 1
 
 - I burst error: E(x)= x^i(x^j+x^j-1+ ...+x+1)
+Se deg G(x) > j e G(x) ha il termine x^0 allora x^i non può essere fattore di G(x) e troverò tutti gli errori perchè non il resto non potra mai essere zero 
 
-se deg G(x) > j li becco perchè non il resto non potra mai essere zero 
-
-in generale  +1 è una buona scelta
-oltre possiamo moltiplicare polinomi con certe proprietà per combinarle
-
-oppure scegliere polinomi irriducibili "primi" 
-
-la sua potenza aumenta in maniera esponenziale rispetto al grado
-non becchiamo il burst di lunghezza più lunga di j con probabilià di 1/2^deg(G(x)), La probablitaà che i bit del burst siano uguali a G(X)
+- In generale:
+Avere un polinomio con il termine x^0, moltiplicare polinomi con certe proprietà per combinarle
+oppure scegliere polinomi irriducibili "primi" sono delle buone scelte.
+La potenza di G(x) aumenta esponenzialmente rispetto al suo grado, un burst di grado = deg G(x), La probablità che il burst venga accettato è pari a quella che i bit del burst siano uguali a G(X) ovvero 1 / 2^deg G(x) 
 
 
 -----------------------------------------------
