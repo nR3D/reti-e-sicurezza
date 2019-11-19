@@ -24,7 +24,7 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | :-- | :-: | :-: | :-: | :-: |
 | intro | ✅ | ✅ | ✅ | ✅ |
 | wired | ✅ | ✅ | ✅ | ✅ |
-| wireless | ✅ | ✅ | Stefano | ✅ |
+| wireless | ✅ | ✅ | ✅ | ✅ |
 | satelliti | ✅ | ✅ | ✅  | ✅ |
 | satellitivsfibra | ✅ | ✅ | ✅ | ✅ |
 | capacitatrasmissione | ✅ | ✅ | ✅ | ✅ |
