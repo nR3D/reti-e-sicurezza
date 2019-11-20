@@ -15,7 +15,6 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | :-- | :-: | :-: | :-: | :-: |
 | intro | ✅ | ✅ | ✅ | ✅ |
 | framing | ✅ | ✅ | ✅ | ✅ |
-| codicirilevaerrori | ❌ | ❌ | ❌ | ❌ |
 | codicidicorrezione | ❌non finito in classe| ❌ | ✅ | ✅ |
 | codicirilevazione  | ✅ (finisco domani)| ❌ | ❌ | ❌ |
 | rilevamento_correzione_intro  | ✅ | ✅ | ✅ | ✅ |
