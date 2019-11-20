@@ -18,6 +18,7 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | codicirilevaerrori | ❌ | ❌ | ❌ | ❌ |
 | codicidicorrezione | ❌non finito in classe| ❌ | ✅ | ✅ |
 | codicirilevazione  | ✅ (ci lavoro ora)| ❌ | ❌ | ❌ |
+| rilevamento_correzione_intro  | ✅ | ✅ | ✅ | ✅ |
 
 ### Fisico
 
