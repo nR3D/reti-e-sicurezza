@@ -22,6 +22,5 @@ e.g.:
 ## Built-in error detection  
 Un altro approcio all'error detection è l'utilizzo di codici di controllo; in particolare nel **built-in** error detection questi codici vengono inseriti direttamente all'interno del dato trasmesso, e non sotto forma di codifica della trasmissione, rendendo così l'error detection indipendente dal metodo di trasmissione.  
 Un esempio di **built-in error detection** è il **codice di Luhn**. Il suo funzionamento è analogo al parity bit, ma è concepito per l'utilizzo anche da parte di persone, dunque è in base 10. Il codice di Luhn permette l'individuazione di un errore, oppure dello scambio di due cifre vicine che non siano 9 e 0 ( e.g. "25" => "52"). E' un algoritmo che viene usato nelle carte di credito, nelle quali l'ultima cifra indica proprio il codice di controllo.
-## Codici di Hamming  
-Fanno parte della famiglia dei codici lineari ( cioè processabili on somme e moltiplicazioni ). Sono codici a blocco, che utilizzano comunque dei bit di parità, ma in modo più efficiente.  
-Un codice di **H(X,Y)** identifica una codifica di Y bit con un dato totale ( dato+bit parità) di X bit.
+## CRC (controllo ciclico di rindondanza)  
+
