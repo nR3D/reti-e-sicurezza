@@ -6,3 +6,16 @@ e.g:
 1. 01 => 01**1**  
 1. 01111 => 01**1**11**0**  
 Nel casoo del *parity bit*, con un qualsiasi *n* si ha comunque distanza 2, ciò significa che sarà possibile identificare 1 singolo errore. Abbiamo quindi un **error rate** *(cioé il numero di errori identificabili)* di **1/(n+1)** e un **data rate** effettivo di **n/(n+1)**  
+## Repetition code
+Un altro algoritmo di **error control** è il **repetition code** Rn, dove ogni bit viene ripetuto **n** volte  
+eg:(con n=3)  
+010 => 0**00**1**11**0**00**  
+In questo modo la distanza tra messaggi correttu sarà **n**, poichè saranno necessari errori di potenza **n** per corrompere il flusso di dati, rendendo l'algoritmo funzionante per messaggi a distanza **n-1**.  
+Questo algoritmo permette quindi di alzare il livello di controllo arbitrariamente, a discapito però del data rate, che si attesta sul **1/n**. Oltre all'error detection il repetitin code permette anche un eventuale **error correction**, a condizione che la potenza dell'errore sia minore di **n/2** ( possiamo fare **error correction** fino a **n-1)/2** ), se fosse maggiore si avrebbero infatti messaggi accettabili più vicini all'errore rispetto alla distanza che il messaggio originale ha con l'errore  
+eg:  
+
+| Messaggio da inviare | Messaggio codificato con R3 |
+| :-: | :-: |
+| 0 | 000 |
+| **Messaggio decodificato erroneamente** | **mesaggio ricevuto** |
+| 1 | 101 |
