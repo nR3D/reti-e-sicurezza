@@ -19,3 +19,8 @@ eg:
 | 0 | 000 |
 | **Messaggio decodificato erroneamente** | **mesaggio ricevuto** |
 | 1 | 101 |
+## Built-in error detection  
+Un altro approcio all'error detection è l'utilizzo di codici di controllo; in particolare nel **built-in** error detection questi codici vengono inseriti direttamente all'interno del dato trasmesso  
+## Codici di Hamming  
+Fanno parte della famiglia dei codici lineari ( cioè processabili on somme e moltiplicazioni ). Sono codici a blocco, che utilizzano comunque dei bit di parità, ma in modo più efficiente.  
+Un codice di **H(X,Y)** identifica una codifica di Y bit con un dato totale ( dato+bit parità) di X bit.
