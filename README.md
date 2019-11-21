@@ -16,7 +16,7 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | intro | ✅ | ✅ | ✅ | ✅ |
 | framing | ✅ | ✅ | ✅ | ✅ |
 | codicidicorrezione | ❌non finito in classe| ❌ | ✅ | ✅ |
-| codicirilevazione  | ✅ (finisco domani)| ❌ | ❌ | ❌ |
+| codicirilevazione  | ✅ | ❌ | ❌ | ❌ |
 | rilevamento_correzione_intro  | ✅ | ✅ | ✅ | ✅ |
 
 ### Fisico
