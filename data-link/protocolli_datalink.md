@@ -1,0 +1,11 @@
+# Protocolli livello datalink  
+## Protocollo stop-and-wait  
+Come dal nome, il **sender** aspetta l'ack di conferma del pacchetto prima di mandarne un altro al receiver.  
+Quindi basta un canale half duplex, in quanto in un dato momento solo il **sender** (con un pacchetto dati), o il **receiver** (con ack di conferma ) spediscono attraverso il canale.  
+**Problemi**:  
+1)Senza un controllo di flusso il **sender** potrebbe sommergere il **receiver** di pacchetti, provocando la perdita di quest'ultimi. **Soluzione** => dopo aver passato il pacchetto allo strato network il **receiver** spedisce un piccolo frame senza dati (dummy) (in questo caaso l'ack), che dal al **sender** il permesso di inviare il frame sucessivo. Il **sender** è obbligato dal protocollo ad aspettare fino all'arrivo dell'ack.  
+2)Procedendo in questo modo se l' **ack** di un qualsiasi frame viene perso, il **receiver** rimarrebbe potenzialmente fermo per sempre. **Soluzione** => introduciamo un **Timeout** (concetto locale che risolve un concetto globale). Quindi, se entro un tot non si riceve un ack dal **receiver**, il **sender** rispedisce il pacchetto.  
+3)Nel caso precedente senza un controllo della sequenzialità del pacchetto, il **receiver** non si accorgerebbe che ha tra le mani un pacchetto duplicato, **Soluzione** => dato che la possibile ambiguità sta tra il frame m e m+1, un solo bit sarà sufficiente.  
+Esempi di questo tipo di protocolli sono il **PAR** e l' **ARQ**.  
+##Funzionamento generale:  
+Dopo la trasmissione del frame il **sender** avvia il timer, se il timer era già stto avviato viene resettato e fatto ripartire. L'intervallo di tempo deve essere scelto in modo che il **frame** abbia il tempo di arrivare al **sender**, essere elaborato, e infine il frame di **ack** deve avere il tempo di tornare indietro. Dopo aver spedito un frame la sorgente aspetta che accada qualcosa: possono avvenire tre 
