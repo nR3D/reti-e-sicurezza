@@ -9,6 +9,13 @@ Quindi basta un canale half duplex, in quanto in un dato momento solo il **sende
 Esempi di questo tipo di protocolli sono il **PAR** e l' **ARQ**.  
 ##Funzionamento generale:  
 Dopo la trasmissione del frame il **sender** avvia il timer, se il timer era già stto avviato viene resettato e fatto ripartire. L'intervallo di tempo deve essere scelto in modo che il **frame** abbia il tempo di arrivare al **sender**, essere elaborato, e infine il frame di **ack** deve avere il tempo di tornare indietro. Dopo aver spedito un frame la sorgente aspetta che accada qualcosa: possono avvenire tre cose:  
->1. Arriva un frame di ack intatto => il **sender** prende un nuovo pacchetto dallo strato network e lo mette nel buffer.
->1. Arriva un frame di ack con errori => nel buffer rimane il frame precendente, non viene cambiato il numero di sequenza e >viene lancoato un duplicato  
->1. Non arriva ack e scatta il **Timer** => nel buffer rimane il frame precendente, non viene cambiato il numero di sequenza e >viene lancoato un duplicato  
+1. Arriva un frame di ack intatto => il **sender** prende un nuovo pacchetto dallo strato network e lo mette nel buffer.
+1. Arriva un frame di ack con errori => nel buffer rimane il frame precendente, non viene cambiato il numero di sequenza e viene lancoato un duplicato  
+1. Non arriva ack e scatta il **Timer** => nel buffer rimane il frame precendente, non viene cambiato il numero di sequenza e viene lancoato un duplicato  
+In tutto questo possiamo notare un problema: ogni frame genera un altro frame, stiamo quindi dimezzando la banda.  
+**Soluzione**  
+## Piggybacking  
+Il **receiver** quando riceve un frame dati, non invia immediatamente un frame di ack, ma aspetta che lo strato network gli passi un altro pacchetto, l'ack viene quindi aggiunto al frame dati in uscita, utilizzando un campo ack nell'header del frame. Questo campo ack non occuperà più di qualche bit, mentre costruire un intero frame separato richiederebbe un'intestazione, un ack e un checksum. E' ovvio che se un pacchetto dallo strato network arriva velocemente al **receiver**, questo potrà utilizzarlo per inviare anche l'ack, in caso contrario l'ack verrà spedito da solo. Il **Timer** dovrà tenere conto di questa "miglioria".  
+## Protocolli sliding window  
+
+à
