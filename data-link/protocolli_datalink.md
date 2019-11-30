@@ -8,4 +8,7 @@ Quindi basta un canale half duplex, in quanto in un dato momento solo il **sende
 3)Nel caso precedente senza un controllo della sequenzialità del pacchetto, il **receiver** non si accorgerebbe che ha tra le mani un pacchetto duplicato, **Soluzione** => dato che la possibile ambiguità sta tra il frame m e m+1, un solo bit sarà sufficiente.  
 Esempi di questo tipo di protocolli sono il **PAR** e l' **ARQ**.  
 ##Funzionamento generale:  
-Dopo la trasmissione del frame il **sender** avvia il timer, se il timer era già stto avviato viene resettato e fatto ripartire. L'intervallo di tempo deve essere scelto in modo che il **frame** abbia il tempo di arrivare al **sender**, essere elaborato, e infine il frame di **ack** deve avere il tempo di tornare indietro. Dopo aver spedito un frame la sorgente aspetta che accada qualcosa: possono avvenire tre 
+Dopo la trasmissione del frame il **sender** avvia il timer, se il timer era già stto avviato viene resettato e fatto ripartire. L'intervallo di tempo deve essere scelto in modo che il **frame** abbia il tempo di arrivare al **sender**, essere elaborato, e infine il frame di **ack** deve avere il tempo di tornare indietro. Dopo aver spedito un frame la sorgente aspetta che accada qualcosa: possono avvenire tre cose:  
+>1. Arriva un frame di ack intatto => il **sender** prende un nuovo pacchetto dallo strato network e lo mette nel buffer.
+>1. Arriva un frame di ack con errori => nel buffer rimane il frame precendente, non viene cambiato il numero di sequenza e >viene lancoato un duplicato  
+>1. Non arriva ack e scatta il **Timer** => nel buffer rimane il frame precendente, non viene cambiato il numero di sequenza e >viene lancoato un duplicato  
