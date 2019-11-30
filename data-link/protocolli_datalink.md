@@ -12,6 +12,13 @@ Dopo la trasmissione del frame il **sender** avvia il timer, se il timer era gi�
 1. Arriva un frame di ack intatto => il **sender** prende un nuovo pacchetto dallo strato network e lo mette nel buffer.
 1. Arriva un frame di ack con errori => nel buffer rimane il frame precendente, non viene cambiato il numero di sequenza e viene lancoato un duplicato  
 1. Non arriva ack e scatta il **Timer** => nel buffer rimane il frame precendente, non viene cambiato il numero di sequenza e viene lancoato un duplicato  
+### Problema generale dello stop and wait:  
+se **bandwidth*round-trip-delay** è grande, significa che stiamo sottoutilizzando la banda; ed è proprio quello che avviene con questo protocollo.  
+## Calcolo utilizzo linea  
+**Capacità** c (vit/s)  
+**Taglia frame** s (bits)  
+**Round trip** r ( tempo impiegato da un pacchetto perarrivare a destinazione e ack arrivi al sender)  
+**Utilizzo linea**= **s/(s+c*r)  
 In tutto questo possiamo notare un problema: ogni frame genera un altro frame, stiamo quindi dimezzando la banda.  
 **Soluzione**  
 ## Piggybacking  
