@@ -18,6 +18,7 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | codicidicorrezione | ❌non finito in classe| ❌ | ✅ | ✅ |
 | codicirilevazione  | ✅ | ❌ | ❌ | ❌ |
 | rilevamento_correzione_intro  | ✅ | ✅ | ✅ | ✅ |
+| protocolli_datalink |❌ |❌ | ❌ | ❌ |
 
 ### Fisico
 
