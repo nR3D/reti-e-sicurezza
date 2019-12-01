@@ -15,10 +15,10 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | :-- | :-: | :-: | :-: | :-: |
 | intro | ✅ | ✅ | ✅ | ✅ |
 | framing | ✅ | ✅ | ✅ | ✅ |
-| codicidicorrezione | ❌non finito in classe| ❌ | ✅ | ✅ |
+| codicidicorrezione | ✅ | ❌ | ✅ | ✅ |
 | codicirilevazione  | ✅ | ❌ | ❌ | ❌ |
 | rilevamento_correzione_intro  | ✅ | ✅ | ✅ | ✅ |
-| protocolli_datalink |❌ |❌ | ❌ | ❌ |
+| flussi | ✅ |❌ | ✅ | ✅ |
 
 ### Fisico
 
