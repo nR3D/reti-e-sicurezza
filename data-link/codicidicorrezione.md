@@ -80,14 +80,11 @@ Nella realtà le interferenze si presentano sotto forma di burst: gli errori acc
 È un problema mostruoso per l'error correcting che può funzionare solo su pochi bit per messaggio.
 Per ovviare ai burst si usa il metodo della matrice invertita (interleaving): dividiamo il blocco dati in blocchetti con bit di parità  propri e li impiliamo. Trasmettendo i messaggi per colonne (prima il primo bit di tutti i pacchetti poi il secondo, ecc.) distribuiamo un burst su pochi bit per ogni blocchetto, rendendolo correggibile dai codici di Hamming, un piccolo prezzo da pagare è un buffer dati.
 
-# DA TRADURRE e integrare
------------
-
 ## Codici di livello 2:
 ----------------------
-I codici di livello due non prendono piu` come unita` il singolo bit ma gruppi, questo permette di correggere errori molto piu` grandi.
+I codici di livello due non prendono più come unità il singolo bit ma gruppi, questo permette di correggere errori molto più grandi.
 Ad esempio  i cd supportano un burst fino a 4000bit senza dover usare usare il trucco della matrice invertita. In oltre hanno una feature aggiuntiva: 
-riuscire a correggere le erasures, ovvero le mancanze di informazione. Sono piu` facili da correggere di un errore perche` individui la posizione subito: non valgono ne 0 ne 1;
+riuscire a correggere le erasures, ovvero le mancanze di informazione. Sono più facili da correggere di un errore perché individui la posizione subito: non valgono ne 0 ne 1;
 I codici di secondo livello Reed-Salomon RS(x,y) correggono fino a x-y erasures, il doppio degli errori.
 Oltretutto riescono a correggere contemporaneamente errori ed erasures basta che sia verificata la disequazione:
 2nErrori + nErasures < X-Y
@@ -103,7 +100,7 @@ Aumentando n ottengo un error rate molto basso ma altrettando basso diventa il d
 Perdono meno banda dei Rn ma la decrescita è simile, aggiungendo bit di controllo il data rate cala a picco.
 
 Shannon dimostrò che per l'error-rate che tende a zero il limite massimo del datarate non tende a zero ma a un numero maggiore di zero:
-e` possibile sviluppare un codice che sta leggeremente sopra il 50% della banda.
+è possibile sviluppare un codice che sta leggeremente sopra il 50% della banda.
 La dimostrazione diche che dato un certo tasso d'errore x si può arrivare a un datarate massimo che è pari all'entropia del canale usato.
 es dischi con tasso di errore 0.1 vogliamo un tasso di errore 10^-15, usando le tecnologie classiche in stile Hamming servono 60 dischi, Shannon dimostra che ne bastano due.
 
@@ -136,19 +133,19 @@ Se G(x) ha due o più membri allora E(x) non potrà mai essere suo multiplo e il
 Se G(x) non è divisibile per questi due fattori allora il resto sarà sempre diverso da zero, individuando il doppioerrore.
 
 - Numero di errori dispari:
-Prendo G(x) con (x+1) come fattore:
+Prendo G(x) con (x+1) come fattore un un polinomio E(x) con un numero dispari di termini.
 Dati due polinomi generici tot(x) e tot2(x)
-
+In modulo due la somma di un numero dispari di uno è 1 e perio:
+E(1)=1 
 G(x) = (x+1) * tot(x)
-E(x) = G(x)  * tot2(x) <- caso in cui si perde
+E(x) = G(x)  * tot2(x) <- caso in cui non individuo l'errore
      = (x+1) * tot(x) * tot2(x) 
-##### DA CHIEDERE
-
-E(1) = (1+1) * tot(1) * tot2(1) = 0;
+e quindi
+E(1) = (1+1) * tot(1) * tot2(1) = 0 che è assurdo
 => vince in tutti i casi in cui c'è un numero dispari di 1
 
 - I burst error: E(x)= x^i(x^j+x^j-1+ ...+x+1)
-Se deg G(x) > j e G(x) ha il termine x^0 allora x^i non può essere fattore di G(x) e troverò tutti gli errori perchè non il resto non potra mai essere zero 
+Se deg(G(x)) > j e G(x) ha il termine x^0 allora x^i non può essere fattore di G(x) e troverò tutti gli errori perchè non il resto non potra mai essere zero.
 
 - In generale:
 Avere un polinomio con il termine x^0, moltiplicare polinomi con certe proprietà per combinarle
