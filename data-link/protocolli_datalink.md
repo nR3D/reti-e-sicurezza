@@ -15,7 +15,7 @@ Dopo la trasmissione del frame il **sender** avvia il timer, se il timer era gi�
 ### Problema generale dello stop and wait:  
 se **bandwidth*round-trip-delay** è grande, significa che stiamo sottoutilizzando la banda; ed è proprio quello che avviene con questo protocollo.  
 ## Calcolo utilizzo linea  
-**Capacità** c (vit/s)  
+**Capacità** c (bit/s)  
 **Taglia frame** s (bits)  
 **Round trip** r ( tempo impiegato da un pacchetto perarrivare a destinazione e ack arrivi al sender)  
 **Utilizzo linea**= **s/(s+c*r)**  
