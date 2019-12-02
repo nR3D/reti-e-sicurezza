@@ -7,7 +7,7 @@ Quindi basta un canale half duplex, in quanto in un dato momento solo il **sende
 2)Procedendo in questo modo se l' **ack** di un qualsiasi frame viene perso, il **receiver** rimarrebbe potenzialmente fermo per sempre. **Soluzione** => introduciamo un **Timeout** (concetto locale che risolve un concetto globale). Quindi, se entro un tot non si riceve un ack dal **receiver**, il **sender** rispedisce il pacchetto.  
 3)Nel caso precedente senza un controllo della sequenzialità del pacchetto, il **receiver** non si accorgerebbe che ha tra le mani un pacchetto duplicato, **Soluzione** => dato che la possibile ambiguità sta tra il frame m e m+1, un solo bit sarà sufficiente.  
 Esempi di questo tipo di protocolli sono il **PAR** e l' **ARQ**.  
-##Funzionamento generale:  
+## Funzionamento generale:  
 Dopo la trasmissione del frame il **sender** avvia il timer, se il timer era già stto avviato viene resettato e fatto ripartire. L'intervallo di tempo deve essere scelto in modo che il **frame** abbia il tempo di arrivare al **sender**, essere elaborato, e infine il frame di **ack** deve avere il tempo di tornare indietro. Dopo aver spedito un frame la sorgente aspetta che accada qualcosa: possono avvenire tre cose:  
 1. Arriva un frame di ack intatto => il **sender** prende un nuovo pacchetto dallo strato network e lo mette nel buffer.
 1. Arriva un frame di ack con errori => nel buffer rimane il frame precendente, non viene cambiato il numero di sequenza e viene lancoato un duplicato  
@@ -18,7 +18,7 @@ se **bandwidth*round-trip-delay** è grande, significa che stiamo sottoutilizzan
 **Capacità** c (vit/s)  
 **Taglia frame** s (bits)  
 **Round trip** r ( tempo impiegato da un pacchetto perarrivare a destinazione e ack arrivi al sender)  
-**Utilizzo linea**= **s/(s+c*r)  
+**Utilizzo linea**= **s/(s+c*r)**  
 In tutto questo possiamo notare un problema: ogni frame genera un altro frame, stiamo quindi dimezzando la banda.  
 **Soluzione**  
 ## Piggybacking  
