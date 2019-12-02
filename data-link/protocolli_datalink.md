@@ -28,4 +28,4 @@ In questi protocolli, il **sender** tiene traccia di un insieme di frame che è 
 ### Protocollo GoBackN  
 Con questo protocollo nel caso di errori durante la trasmissione, il **receiver** scarta tutti i frame sucessivi all'errore, ma continua a trasmettere ack (anche con piggybacking) dell'ultimo frame arrivato con successo. Questo comportamento corrisponde ad una finestra di ricezione pari a **1**. Puo' succedere che ad un certo punto la finestra del **sender** si saturi, quando ( e se ) la sorgente va in timeout, rispedira' tutti i frame a partire dal primo danneggiato o perso.  
 ### Ripetizione selettiva  
-
+Con questo metodo i frame in errore vengono scartati, ma vengono mantenuti i frame buoni in un buffer. Per in frame in errore vengono mandati NAK ( cioe' ack negativi ), che sollecitano il **sender** a spedire i frame in errore prima del timeout.   
