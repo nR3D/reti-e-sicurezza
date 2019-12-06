@@ -39,8 +39,8 @@ Protocollo **punto-punto** utilizzato per il traffico **router-router** e **momd
 **Funzionamento**:
 **Flusso dati**:  
 1. computer-router  
-1. router-modem  
-1. modem-DSLAM (usato per il mutiplexing)  
-1. DSLAM a provider  
-1. da provider a internet  
+2. router-modem  
+3. modem-DSLAM (usato per il mutiplexing)  
+4. DSLAM a provider  
+5. da provider a internet  
 
