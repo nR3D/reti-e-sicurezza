@@ -34,7 +34,8 @@ Con questo metodo i frame in errore vengono scartati, ma vengono mantenuti i fra
 ### Protocollo PPP  
 Protocollo **punto-punto** utilizzato per il traffico **router-router** e **momdem-isp**.  
 **nota**: nel protocollo PPP sono utilizzati altri due protocolli:  
-1. LCP => *link control protocol*
+1. LCP => *link control protocol* che viene utilizzato per gestire la connessione, il test della linea, negoziare i parametri di collegamento ( quali ad esempio l'omissione del campo *control* e *address* nel frame, dato che di solito di default "non vengono utilizzati perche' usano valori nulli", e vengono settati solo in caso di canali rumorosi, ma anche settare la grandezza del *payload*, dato che in PPP e' variabile) e gestire la disconnessione in modo pulito.
+1. NCP => viene utilizzato per negoziare le opzioni dello strato network.  
 **Flusso dati**:  
 1. computer-router  
 1. router-modem  
