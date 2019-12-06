@@ -39,6 +39,9 @@ Protocollo **punto-punto** utilizzato per il traffico **router-router** e **momd
 È stato ideato per essere il più simile possibile a HDLC. PPP delimita i suoi frame con byte stuffing,
 non con bit stuffing come HDLC.  
 
+**frame PPP**:  
+    ![frame_PPP](./img/frame_PPP.jpg)  
+
 **Flusso dati**:  
 1. computer-router  
 2. router-modem  
