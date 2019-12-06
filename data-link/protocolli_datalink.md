@@ -72,10 +72,8 @@ Per ogni passo, c’è un cambio di protocollo. Ad esempio, quando si passa al p
 • **canali (channels)** (nei modem, identificati con il campo Virtual Channel Identifier, VCI).  
 **ATM** è connection-oriented, ecco il perché dei Virtual Channel.  
 Una **connessione ADSL** inizia nel seguente modo:  
-• il computer/modem invia un frame **PPPoE (Active Discovery Initiation)**, col suo indirizzo
-fisico (MAC);
-• i servizi ADSL disponibili rispondono con un **PADO (PPPoE Active Discovery Offer)**;
-• il computer/modem risponde con un **PADR (PPPoE Active Discovery Request)** in cui
-segnala il servizio ADSL che ha scelto;
-• il servizio fa l'ACK usando un frame **PADS (PPPoE Active Discovery Sessionconfirmation)**;
-• la connessione è terminata da un frame **PADT (PPPoE Active Discovery Termination)**.
+• il computer/modem invia un frame **PPPoE (Active Discovery Initiation)**, col suo indirizzo fisico (MAC);  
+• i servizi ADSL disponibili rispondono con un **PADO (PPPoE Active Discovery Offer)**;  
+• il computer/modem risponde con un **PADR (PPPoE Active Discovery Request)** in cui segnala il servizio ADSL che ha scelto  
+• il servizio fa l'ACK usando un frame **PADS (PPPoE Active Discovery Sessionconfirmation)**;  
+• la connessione è terminata da un frame **PADT (PPPoE Active Discovery Termination)**.  
