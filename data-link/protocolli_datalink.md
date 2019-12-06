@@ -67,18 +67,15 @@ Una versione (molto semplificata) dei passi che avvengono quando un computer si 
 4. DSLAM a provider  
 5. da provider a internet  
 
-Per ogni passo, c’è un cambio di protocollo. Ad esempio, quando si passa al provider non si è arrivati
-in fondo: possono esserci più reti cablate assieme, ma di tipo diverso. Solitamente, il primo tratto è
-ATM, il secondo è Ethernet. ATM (Asynchronous Transfer Mode) è un’evoluzione di HDLC, usa
-TDM e gestisce il flusso con una sliding window (con apertura 16), rilevazione degli errori con CRC8 e indirizzamento di due tipi gerarchici:
-• **cammini (path)** (nei modem, identificati con il campo Virtual Path Identifier, VPI);
-• **canali (channels)** (nei modem, identificati con il campo Virtual Channel Identifier, VCI).
-**ATM** è connection-oriented, ecco il perché dei Virtual Channel.
-Una connessione ADSL inizia nel seguente modo:
-• il computer/modem invia un frame PPPoE (Active Discovery Initiation), col suo indirizzo
+Per ogni passo, c’è un cambio di protocollo. Ad esempio, quando si passa al provider non si è arrivati in fondo: possono esserci più reti cablate assieme, ma di tipo diverso. Solitamente, il primo tratto è ATM, il secondo è Ethernet. ATM (Asynchronous Transfer Mode) è un’evoluzione di HDLC, usa TDM e gestisce il flusso con una sliding window (con apertura 16), rilevazione degli errori con CRC8 e indirizzamento di due tipi gerarchici:  
+• **cammini (path)** (nei modem, identificati con il campo Virtual Path Identifier, VPI);  
+• **canali (channels)** (nei modem, identificati con il campo Virtual Channel Identifier, VCI).  
+**ATM** è connection-oriented, ecco il perché dei Virtual Channel.  
+Una **connessione ADSL** inizia nel seguente modo:  
+• il computer/modem invia un frame **PPPoE (Active Discovery Initiation)**, col suo indirizzo
 fisico (MAC);
-• i servizi ADSL disponibili rispondono con un PADO (PPPoE Active Discovery Offer);
-• il computer/modem risponde con un PADR (PPPoE Active Discovery Request) in cui
+• i servizi ADSL disponibili rispondono con un **PADO (PPPoE Active Discovery Offer)**;
+• il computer/modem risponde con un **PADR (PPPoE Active Discovery Request)** in cui
 segnala il servizio ADSL che ha scelto;
-• il servizio fa l'ACK usando un frame PADS (PPPoE Active Discovery Sessionconfirmation);
-• la connessione è terminata da un frame PADT (PPPoE Active Discovery Termination).
+• il servizio fa l'ACK usando un frame **PADS (PPPoE Active Discovery Sessionconfirmation)**;
+• la connessione è terminata da un frame **PADT (PPPoE Active Discovery Termination)**.
