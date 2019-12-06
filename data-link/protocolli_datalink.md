@@ -53,4 +53,18 @@ I campi *Address* e *Control* hanno dei valori default che si notano nell'immagi
 3. modem-DSLAM (usato per il mutiplexing)  
 4. DSLAM a provider  
 5. da provider a internet  
+### PPP e le ADSL  
+All’interno di una rete è possibile decidere la dimensione di un frame, impostando il valore MTU (Maximum Transmission Unit). Esiste comunque una dimensione prefissata dell’MTU ed è decisa nello standard di PPP.  
+Si potrebbe tenere un valore alto per l’MTU e si avrebbero quindi frame più grandi: si otterrebbe
+come risultato meno overhead e quindi più banda disponibile (andrebbe bene in canali affidabili).  
+Si potrebbe tenere un valore basso per l’MTU e si avrebbero quindi frame più piccoli: si otterrebbe
+come risultato più overhead e quindi meno banda disponibile (andrebbe bene in canali poco
+affidabili).  
+Queste due affermazioni però non sono sempre vere, poiché le reti non sono isolate, devono
+interfacciarsi con altre e quindi la modifica dell’MTU potrebbe portare benefici solo nella propria rete,
+ma al di fuori di questa le cose si complicano parecchio.  
+Per collegare le varie reti, PPP viene istanziato in due varianti:  
+• PPPoA (PPP over ATM);  
+• PPPoE (PPP over Ethernet).  
+Una versione (molto semplificata) dei passi che avvengono quando un computer si connette a Internet:  
 
