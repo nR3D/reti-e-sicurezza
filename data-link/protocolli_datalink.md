@@ -42,6 +42,11 @@ non con bit stuffing come HDLC.
 **frame PPP**:  
     ![frame_PPP](./img/frame_PPP.jpg)  
 
+Nel campo *Protocol* si specifica a che protocollo si riferisce il frame inviato (LCP o NCP, ecco perché è definito meta-protocollo). I frame del protocollo LCP iniziano col bit 1, gli altri con il bit 0.  
+Nel campo *Payload* sono contenuti i dati: la dimensione di questo campo può variare, in base al protocollo utilizzato.  
+Nel campo *Checksum* è contenuto il codice di rilevazione degli errori, calcolato con CRC.  
+I campi *Address* e *Control* hanno dei valori default che si notano nell'immagine. Address impostato in questo modo indica a tutte le stazioni di accettare il frame. Control e' utilizzato per la numerazione dei frame, con l'impostazione di defaul non vi e' nessuna indicazione di valore, di fatto si utilizza la numerazione (e campo Address) solo in caso di canali rumorosi.  
+
 **Flusso dati**:  
 1. computer-router  
 2. router-modem  
