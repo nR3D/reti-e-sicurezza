@@ -35,8 +35,10 @@ Con questo metodo i frame in errore vengono scartati, ma vengono mantenuti i fra
 Protocollo **punto-punto** utilizzato per il traffico **router-router** e **momdem-isp**.  
 **nota**: nel protocollo PPP sono utilizzati altri due protocolli:  
 1. **LCP** => *link control protocol* che viene utilizzato per gestire la connessione, il test della linea, negoziare i parametri di collegamento ( quali ad esempio l'omissione del campo *control* e *address* nel frame, dato che di solito di default "non vengono utilizzati perche' usano valori nulli", e vengono settati solo in caso di canali rumorosi, ma anche settare la grandezza del *payload*, dato che in PPP e' variabile, puo' essere settato lo spazio attribuito al checksum, se usare ad esempio 2 o 4 byte e negoziare la lunghezza di *Protocol*, se 2 o 1 byte) e gestire la disconnessione in modo pulito.  
-1. **NCP** => viene utilizzato per negoziare le opzioni dello strato network.  
-**Funzionamento**:
+2. **NCP** => viene utilizzato per negoziare le opzioni dello strato network.  
+È stato ideato per essere il più simile possibile a HDLC. PPP delimita i suoi frame con byte stuffing,
+non con bit stuffing come HDLC.  
+
 **Flusso dati**:  
 1. computer-router  
 2. router-modem  
