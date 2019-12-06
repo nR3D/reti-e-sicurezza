@@ -47,12 +47,6 @@ Nel campo *Payload* sono contenuti i dati: la dimensione di questo campo può va
 Nel campo *Checksum* è contenuto il codice di rilevazione degli errori, calcolato con CRC.  
 I campi *Address* e *Control* hanno dei valori default che si notano nell'immagine. Address impostato in questo modo indica a tutte le stazioni di accettare il frame. Control e' utilizzato per la numerazione dei frame, con l'impostazione di defaul non vi e' nessuna indicazione di valore, di fatto si utilizza la numerazione (e campo Address) solo in caso di canali rumorosi.  
 
-**Flusso dati**:  
-1. computer-router  
-2. router-modem  
-3. modem-DSLAM (usato per il mutiplexing)  
-4. DSLAM a provider  
-5. da provider a internet  
 ### PPP e le ADSL  
 All’interno di una rete è possibile decidere la dimensione di un frame, impostando il valore MTU (Maximum Transmission Unit). Esiste comunque una dimensione prefissata dell’MTU ed è decisa nello standard di PPP.  
 Si potrebbe tenere un valore alto per l’MTU e si avrebbero quindi frame più grandi: si otterrebbe
@@ -64,7 +58,27 @@ Queste due affermazioni però non sono sempre vere, poiché le reti non sono iso
 interfacciarsi con altre e quindi la modifica dell’MTU potrebbe portare benefici solo nella propria rete,
 ma al di fuori di questa le cose si complicano parecchio.  
 Per collegare le varie reti, PPP viene istanziato in due varianti:  
-• PPPoA (PPP over ATM);  
-• PPPoE (PPP over Ethernet).  
+• **PPPoA (PPP over ATM)**;  
+• **PPPoE (PPP over Ethernet)**.  
 Una versione (molto semplificata) dei passi che avvengono quando un computer si connette a Internet:  
+1. computer-router  
+2. router-modem  
+3. modem-DSLAM (usato per il mutiplexing)  
+4. DSLAM a provider  
+5. da provider a internet  
 
+Per ogni passo, c’è un cambio di protocollo. Ad esempio, quando si passa al provider non si è arrivati
+in fondo: possono esserci più reti cablate assieme, ma di tipo diverso. Solitamente, il primo tratto è
+ATM, il secondo è Ethernet. ATM (Asynchronous Transfer Mode) è un’evoluzione di HDLC, usa
+TDM e gestisce il flusso con una sliding window (con apertura 16), rilevazione degli errori con CRC8 e indirizzamento di due tipi gerarchici:
+• **cammini (path)** (nei modem, identificati con il campo Virtual Path Identifier, VPI);
+• **canali (channels)** (nei modem, identificati con il campo Virtual Channel Identifier, VCI).
+**ATM** è connection-oriented, ecco il perché dei Virtual Channel.
+Una connessione ADSL inizia nel seguente modo:
+• il computer/modem invia un frame PPPoE (Active Discovery Initiation), col suo indirizzo
+fisico (MAC);
+• i servizi ADSL disponibili rispondono con un PADO (PPPoE Active Discovery Offer);
+• il computer/modem risponde con un PADR (PPPoE Active Discovery Request) in cui
+segnala il servizio ADSL che ha scelto;
+• il servizio fa l'ACK usando un frame PADS (PPPoE Active Discovery Sessionconfirmation);
+• la connessione è terminata da un frame PADT (PPPoE Active Discovery Termination).
