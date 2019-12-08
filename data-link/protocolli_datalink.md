@@ -18,12 +18,14 @@ se **bandwidth*round-trip-delay** è grande, significa che stiamo sottoutilizzan
 **Capacità** c (bit/s)  
 **Taglia frame** s (bits)  
 **Round trip** r ( tempo impiegato da un pacchetto perarrivare a destinazione e ack arrivi al sender)  
-**Utilizzo linea**= **s/(s+c*r)**  
+**Utilizzo linea**= `s/(s+c*r)`
+`C*R` sono i dati che potevano essere trasmessi
 In tutto questo possiamo notare un problema: ogni frame genera un altro frame, stiamo quindi dimezzando la banda.  
 **Soluzione**  
 ## Piggybacking  
 Il **receiver** quando riceve un frame dati, non invia immediatamente un frame di ack, ma aspetta che lo strato network gli passi un altro pacchetto, l'ack viene quindi aggiunto al frame dati in uscita, utilizzando un campo ack nell'header del frame. Questo campo ack non occuperà più di qualche bit, mentre costruire un intero frame separato richiederebbe un'intestazione, un ack e un checksum. E' ovvio che se un pacchetto dallo strato network arriva velocemente al **receiver**, questo potrà utilizzarlo per inviare anche l'ack, in caso contrario l'ack verrà spedito da solo. Il **Timer** dovrà tenere conto di questa "miglioria".  
 ## Protocolli sliding window  
+L'idea e' quella di avere una finestra circolare di n spichi a cui si accede a m spicchi con m<=n, a ognuno di questi e' assegnato un pacchetto da spedire, quando ricevo l'ack relativo a quello spicchio lo libero e se anche gli spicchi precedenti si son loberati, sposto la finestra a quello sucessivo  Anche il ricevitore deve essere pronto per l'arrivo di più pacchetti. Il ricevente tiene aperta una finestra per sugli spicchi che sta aspettando, quando il pacchetto arriva invia l'ack corrispondente. Se gli spicchi precedenti della finestra sono stati ricevuti sposto l'inizio della finestra allo spicchio successivo. Due numeri importanti: l'ampiezza complessiva della finestra(n), e il grado di parallelismo(m) (Quanti pacchetti invio contemporaneamente) grado <= ampiezza
 In questi protocolli, il **sender** tiene traccia di un insieme di frame che è autorizzato ad inviare ( cioè che sono nella **finestra di invio** ), e il **receiver** mantiene una **finestra di ricezione**, che corrisponde all'insieme dei frame che può accettare. Ogni frame in uscita contiene un **numero di sequenza** da 0 ad una potenza di 2 (per motivi implementativi). I frame trasmessi dal **sender** sono mantenuti in un buffer nell'eventualit' alcuni andassero persi.  
 ### Protocollo GoBackN  
 Con questo protocollo nel caso di errori durante la trasmissione, il **receiver** scarta tutti i frame sucessivi all'errore, ma continua a trasmettere ack (anche con piggybacking) dell'ultimo frame arrivato con successo. Questo comportamento corrisponde ad una finestra di ricezione pari a **1**. Puo' succedere che ad un certo punto la finestra del **sender** si saturi, quando ( e se ) la sorgente va in timeout, rispedira' tutti i frame a partire dal primo danneggiato o perso. Metodo vantaggioso se avvengono **pochi errori**, **bandwidth*round-trip-delay alto**.
