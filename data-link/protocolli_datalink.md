@@ -31,7 +31,7 @@ Con questo protocollo nel caso di errori durante la trasmissione, il **receiver*
 ### Ripetizione selettiva  
 Con questo metodo i frame in errore vengono scartati, ma vengono mantenuti i frame buoni in un buffer. Per in frame in errore vengono mandati NAK ( cioe' ack negativi ), che sollecitano il **sender** a spedire i frame in errore prima del timeout. La ripetizione selettiva corrisponde ad avere una finestra di ricezione **maggiore di 1**. Nel caso di **timeout** solo il frame più vecchio senza ack viene ritrasmesso. (guardare esempio su libro o in caso riortarlo qui)  
 **Problema**=> Suppponiamo che durante una trasmissione tutti i pacchetti arrivino al destinatario correttamente, ma ( ad esempio per un forte evento atmosferico ), tutti gli ack vengano persi. La destinazione avra' (come conseguenza alla corretta ricezione ) spostato la finestra di ricezione, aspettandosi cosi la stessa sequenza di frame ( cioe' stessi numeri di sequenza), il timer della sorgente scatta, dato che nessun ack e' stato rilevato; accade che la destinazione accetta tutti i frame in entrata, non accrogendosi che sono duplicati. Il problema e' quindi una sovrapposizione delle finestre. **Soluzione**=>  la dimensione della finestra dovrebbe essere la **metà** della sequenza di numeri. Se abbiamo 3 bit per la sequenza dei frame (quindi una numerazione da 0 a 7), la finestra deve essere al massimo grande 4.  
-<!-- parte di Leonardo da aggiungere -->  
+<!-- parte hdlc di Leonardo da aggiungere -->  
 ### Protocollo PPP  
 Protocollo **punto-punto** utilizzato per il traffico **router-router** e **momdem-isp**.  
 **nota**: nel protocollo PPP sono utilizzati altri due protocolli:  
