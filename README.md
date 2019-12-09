@@ -19,6 +19,8 @@ Prima pushare i cambiamenti aggiornando le caselle. Buon lavoro :)
 | codicirilevazione  | ✅ | ❌ | ❌ | ✅ |
 | rilevamento_correzione_intro  | ✅ | ✅ | ✅ | ✅ |
 | flussi | ✅ |❌ | ✅ | ✅ |
+| protocolli_datalink | ✅ |❌ | ✅ | ✅ |
+| protocolli_access_multiplo | ❌ |❌ | ❌ | ❌ |
 
 ### Fisico
 
