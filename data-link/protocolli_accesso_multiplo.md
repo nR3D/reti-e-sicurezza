@@ -31,5 +31,4 @@ Prima di trasmettere ogni stazione controlla il canale (come prima), se il canal
 ## CSMA p-Persistente  
 Una stazione rimane in ascolto del canale fino a quando non si libera ( infatti è persistente ) e poi trasmette i frame con probabilità **p**. In caso di collisione si attende un intervallo di tempo casuale.  
 **Sunto tramite grafico delle prestazioni**  
-
-
+![CSMA](./img/CSMA.jpg)
