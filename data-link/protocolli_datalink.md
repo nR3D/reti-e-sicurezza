@@ -18,7 +18,7 @@ se **bandwidth*round-trip-delay** è grande, significa che stiamo sottoutilizzan
 **Capacità** c (bit/s)  
 **Taglia frame** s (bits)  
 **Round trip** r ( tempo impiegato da un pacchetto perarrivare a destinazione e ack arrivi al sender)  
-**Utilizzo linea**= `s/(s+c*r)`  
+**Utilizzo linea**= `s/(s+c*r)`  <!-- alt+96 -->
 `c*r` sono i dati che potevano essere trasmessi  
 ## Piggybacking  
 In tutto questo possiamo notare un problema: ogni frame genera un altro frame, stiamo quindi dimezzando la banda.  
