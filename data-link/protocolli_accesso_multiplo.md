@@ -34,3 +34,4 @@ Una stazione rimane in ascolto del canale fino a quando non si libera ( infatti 
 ![CSMA](./img/CSMA.jpg)
 ### CSMA/CD  
 CSMA con *Collision Detection*, le stazioni possono accorgersi che vi è stato una collisione, e al posto di continuare a trasmettere frame che verranno da li a poco distrutti, interrompono la trasmissione. CSMA/CD è alla base delle comunicazioni Ethernet in LAN.   
+<!-- manca ultima lezione di venerdì -->
