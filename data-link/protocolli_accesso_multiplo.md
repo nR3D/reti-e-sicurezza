@@ -47,4 +47,6 @@ Con basso carico la mappa di bit ripetera' il ciclo di controllo di stazioni pro
 #### Conteggio binario  
 Con la mappa di bit si ha un overhead di 1 bit per stazione, il che lo rende poco scalabile quando si cominciano ad avere migliaia di stazioni. Nel conteggio binario una stazione che desidera trasmettere deve prima comunicare il proprio indirizz binario a tutte le stazioni a partire dal valore con peso maggiore. I bit nella stessa posizione di indirizzi diversi sono elaborati tramite l'OR. Trascurando i tempi di ritardo, appena una stazione si accorge che e' stata sovrascritta da un 1 in una posizione in cui essa aveva uno 0, si toglie dalla contesa.
 ![conteggiob](./img/conteggiob.jpg) 
-efficienza: `d/(d+log2(N))  
+efficienza: `d/(d+log2(N))`  
+### Protocolli a contesa limitata  
+Ogni stratefia di acquisizione del canale puo' essere valutata guardando il ritardo a basso carico, e l'efficienza a carico elevato. Esempio: a carico basso Aloha funziona bene per il basso ritardo, ma all'aumentare del carico la contesa diventa inefficiente. Con i protocolli senza collisione avviene il contrario.  
