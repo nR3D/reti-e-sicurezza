@@ -42,4 +42,5 @@ Con CSMA/CD le collisioni possono avvenire solo durante il periodo di contesa.
 Esaminiamo alcuni protocolli che non generano **MAI** collisioni:  
 #### Protocollo a mappa di bit  
 Con N stazioni, dividiamo il perido di contesa in N slot. Una stazione j puo' annunciare la volonta' di trasmettere solo all'interno dello slot j, trasmettendo un 1; nessun altro potra' trasmettere durante quel periodo. Una volta trascosi gli N intervalli ogni stazione sa quali stazioni devono trasmettere, e a questo punto le stazioni inizieranno a trasmettere in ordine numerico.  
-![mappa_bit](./img/mappa_bit.jpg)
+![mappa_bit](./img/mappa_bit.jpg)  
+Con basso carico la mappa di bit ripetera' il ciclo di controllo di stazioni pronte di continuo. A basso carico, una stazione "con valore numerico basso", di solito, prima che possa essere pronta, lo slot corrente sara' da qualche parte in mezzo alla mappa di bit, trascorreranno quindi N/2 sot, e altri N prima che possa trasmettere. Una stazione con  "con valore numerico alto", trascorrera' in media solo N/2 prima di trasmettere. se d sono i bit da trasmettere, in media una stazione aspettera' N slot per trasmettere (N bit trasmessi), con un'efficienza di 
