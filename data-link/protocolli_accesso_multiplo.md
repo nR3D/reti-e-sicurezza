@@ -33,5 +33,8 @@ Una stazione rimane in ascolto del canale fino a quando non si libera ( infatti 
 **Sunto tramite grafico delle prestazioni**  
 ![CSMA](./img/CSMA.jpg)
 ### CSMA/CD  
-CSMA con *Collision Detection*, le stazioni possono accorgersi che vi è stato una collisione, e al posto di continuare a trasmettere frame che verranno da li a poco distrutti, interrompono la trasmissione. CSMA/CD è alla base delle comunicazioni Ethernet in LAN.   
-<!-- manca ultima lezione di venerdì -->
+CSMA con *Collision Detection*, le stazioni possono accorgersi che vi è stato una collisione, e al posto di continuare a trasmettere frame che verranno da li a poco distrutti, interrompono la trasmissione, e dovranno aspettare un tempo casuale prima di ritrasmettere. CSMA/CD è alla base delle comunicazioni Ethernet in LAN.  
+**Funzionamento**  
+Supponiamo sia *t* il tempo che il segnale impiega a propagarsi tra le due stazioni piu' distanti. All'istante *t0* una stazione A comincia a trasmettere, e all'istante *t-e* la stazione B comincia a trasmettere ( quest'ultima non aveva ovviamente rilevato la trasmissione perche' il senale doveva ancora propagarsi a quest'ultima). La stazione B rileva quasi immediatamente l'errore, ma la stazione A impieghera' un tempo *2t-e* a capire che e' avvenuta una collisione, perche' il picco di rumore deve propagarsi all'indietro. Il rilevamento della collisione e' un sistema analogico, e' facile capire che CSMA/CD su singolo canale e' intrinsicamente half duplex, e' impossibile quindi per una stazione trasmettere e ricevere nello stesso momento, dato che durante la trasmissione vi e' attiva la logica che cerca di rilevare le collisioni.  
+**NB**: il sottostrato MAC non garantisce una consegna affidabile.  
+### Protocolli senza collisione  
