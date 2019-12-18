@@ -49,4 +49,4 @@ Con la mappa di bit si ha un overhead di 1 bit per stazione, il che lo rende poc
 ![conteggiob](./img/conteggiob.jpg) 
 efficienza: `d/(d+log2(N))`  
 ### Protocolli a contesa limitata  
-Ogni stratefia di acquisizione del canale puo' essere valutata guardando il ritardo a basso carico, e l'efficienza a carico elevato. Esempio: a carico basso Aloha funziona bene per il basso ritardo, ma all'aumentare del carico la contesa diventa inefficiente. Con i protocolli senza collisione avviene il contrario.  
+Ogni stratefia di acquisizione del canale puo' essere valutata guardando il ritardo a basso carico, e l'efficienza a carico elevato. Esempio: a carico basso Aloha funziona bene per il basso ritardo, ma all'aumentare del carico la contesa diventa inefficiente. Con i protocolli senza collisione avviene il contrario. I protocolli a contesa limitata cercano di mettere insieme le proprieta' migliori dei protocolli che abbiamo visto. Le staz
