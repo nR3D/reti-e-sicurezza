@@ -61,8 +61,10 @@ B trasmette ad A, C rileva una portante nel mezzo trasmissivo, pensa erroneament
 ![problemi](./img/problemi.jpg)
 #### Protocollo MACA (Multiple Accesswith Collision Avoidense  
 A vuole trasmettere a B, A invia un frame RTS (request to send) a B, questo frame contiene la lunghezza del frame da dati che si vuole inviare. B risponde con un frame CTS (clear to send), che contiene il carico di RTS (quidi la lunghezza del frame dati). Non appena A riceve il frame CTS comicia a trasmetere. C vede A ma non B, quindi riceve il frame RTS ma non CTS inviato da B, fintanto che non interferisce con CTS C puo' trasmettere, ma D, che riceve solo l'RTS, sa di essere vicino ad una stazione che sta per ricevere un frame, quindi sta zitto, e tramite la lunghezza del pacchetto che trova in RTS puo' far una stima del tempo di attesa.  
+![maca](./img/maca.jpg)
 #### Protocollo MACAW  
 E' MACA con CSMA (quindi con rilevameno della portante) e con ACK.  
 ### Ethernet  
 IEEE ha standardizzato LAN e MAN sotto 802. Gli standard piu' importanti sono: 802.3 per Ethernet, 802.11 per LAN wireless, 802.16 per MAN wireless e 802.15 Bluetooth. 
+![ethernet](./img/ethernet.jpg)
 I transceiver contegono l'elettronica per rilevare la portante ( ascoltare il canale trasmissivo ) e rilevare le collisioni. 
