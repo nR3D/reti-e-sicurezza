@@ -67,4 +67,5 @@ E' MACA con CSMA (quindi con rilevameno della portante) e con ACK.
 ### Ethernet  
 IEEE ha standardizzato LAN e MAN sotto 802. Gli standard piu' importanti sono: 802.3 per Ethernet, 802.11 per LAN wireless, 802.16 per MAN wireless e 802.15 Bluetooth. 
 ![ethernet](./img/ethernet.jpg)
+![tipi](./img/tipi.jpg)
 I transceiver contegono l'elettronica per rilevare la portante ( ascoltare il canale trasmissivo ) e rilevare le collisioni. 
