@@ -55,3 +55,12 @@ Nel primo intervallo di contesa che segue una trasmissione andata a buon fine, l
 ![tree](./img/tree.jpg)
 ### Protocolli LAN Wireless  
 **Problema della stazione nascosta**  
+A e B si vedono, potenzialmente i loro segnali possono iterferire, C puo' interferire con B e D ma non con A. Ora A trasmette a B, C non puo' rilevare la portante di A perche' non la vede, pensa erroneamente che B sia libero e trasmette, creando cosi conflitto.  
+**Problema della stazione esposta**  
+B trasmette ad A, C rileva una portante nel mezzo trasmissivo, pensa erroneamente di non poter inviare a D.  
+<!-- immagine -->
+#### Protocollo MACA (Multiple Accesswith Collision Avoidense  
+A vuole trasmettere a B, A invia un frame RTS (request to send) a B, questo frame contiene la lunghezza del frame da dati che si vuole inviare. B risponde con un frame CTS (clear to send), che contiene il carico di RTS (quidi la lunghezza del frame dati). Non appena A riceve il frame CTS comicia a trasmetere. C vede A ma non B, quindi riceve il frame RTS ma non CTS inviato da B, fintanto che non interferisce con CTS C puo' trasmettere, ma D, che riceve solo l'RTS, sa di essere vicino ad una stazione che sta per ricevere un frame, quindi sta zitto, e tramite la lunghezza del pacchetto che trova in RTS puo' far una stima del tempo di attesa.  
+#### Protocollo MACAW  
+E' MACA con CSMA (quindi con rilevameno della portante) e con ACK.  
+### Ethernet  
