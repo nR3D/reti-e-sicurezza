@@ -64,10 +64,3 @@ A vuole trasmettere a B, A invia un frame RTS (request to send) a B, questo fram
 ![maca](./img/maca.jpg)
 #### Protocollo MACAW  
 E' MACA con CSMA (quindi con rilevameno della portante) e con ACK.  
-### Ethernet  
-IEEE ha standardizzato LAN e MAN sotto 802. Gli standard piu' importanti sono: 802.3 per Ethernet, 802.11 per LAN wireless, 802.16 per MAN wireless e 802.15 Bluetooth. 
-![ethernet](./img/ethernet.jpg)
-![tipi](./img/tipi.jpg)
-I transceiver contegono l'elettronica per rilevare la portante ( ascoltare il canale trasmissivo ) e rilevare le collisioni. 
-#### Codifica in LAN  
-Ethernet 802.3 utilizza la codifica Manchester "al contrario", nel senso che codifica l'1 binario come transizione da un livello di tensione basso seguito da uno alto, e per lo zero viceversa. In alcune LAN come 802.5 (token ring) si utilizza la codifica Manchester differenziale, ovvero l'assenza di transizione tra un periodo e l'altro indica un 1, e una transizione tra due periodi indica uno 0. 
