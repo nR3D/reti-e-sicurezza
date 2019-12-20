@@ -69,3 +69,5 @@ IEEE ha standardizzato LAN e MAN sotto 802. Gli standard piu' importanti sono: 8
 ![ethernet](./img/ethernet.jpg)
 ![tipi](./img/tipi.jpg)
 I transceiver contegono l'elettronica per rilevare la portante ( ascoltare il canale trasmissivo ) e rilevare le collisioni. 
+#### Codifica in LAN  
+Ethernet 802.3 utilizza la codifica Manchester "al contrario", nel senso che codifica l'1 binario come transizione da un livello di tensione basso seguito da uno alto, e per lo zero viceversa. In alcune LAN come 802.5 (token ring) si utilizza la codifica Manchester differenziale, ovvero l'assenza di transizione tra un periodo e l'altro indica un 1, e una transizione tra due periodi indica uno 0. 
